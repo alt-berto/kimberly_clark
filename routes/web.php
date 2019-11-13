@@ -11,6 +11,5 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get( '/', 'Controller@home' ); // // localhost:8000/
+Route::get( '/page/{page}', 'Controller@page' ); // // localhost:8000/page/2
