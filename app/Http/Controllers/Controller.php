@@ -119,7 +119,7 @@ class Controller extends BaseController
         $this->data['css']['internals'][] = 'animate.min.css';
         $this->data['css']['internals'][] = 'dataTables.bootstrap4.css';
         $this->data['css']['internals'][] = 'sb-admin.css';
-        $this->data['css']['internals'][] = 'app.css';
+        //$this->data['css']['internals'][] = 'app.css';
 
         // Load Internal Icons Files.
         $this->data['icons']['internals'][] = ['rel' => 'icon', 'size' => '', 'url' => 'logo-128x128-1.png'];

@@ -14,23 +14,29 @@
             <nav class="navbar static-top">    
                 <h1 class="mainTitle">¿Por qué se presta atención a la liquidez?</h1>    
             </nav>
-            <div class="container-fluid">
+            <div class="container-fluid colorBoxes">
                 <div class="boxes row">
                     <div class="col-md-3 boxMain greenBox1">
                         <img src="{{ asset('imgs/icon-1.svg') }}" alt="">
-                        <p>Volatilidad<br/> de los mercados<br/> aumentando la<br/> exposición del riesgo </p>
+                        <p>Volatilidad
+                            de los mercados aumentando la exposición del riesgo
+                        </p>
                     </div>
-                    <div class="col-md-3 boxMain greenBox2">
+                    <div class="col-md-3 animated pulse boxMain greenBox2">
                         <img src="{{ asset('imgs/icon-2.svg') }}" alt="">
-                        <p>Gran cantidad de<br/> empresas grandes<br/> fijando bancarrota </p>
+                        <p>Gran cantidad de empresas grandes fijando bancarrota
+                        </p>
                     </div>
                     <div class="col-md-3 boxMain greenBox3">
                         <img src="{{ asset('imgs/icon-3.svg') }}" alt="">
                     </div>
                     <div class="col-md-3 boxMain greenBox4">
                         <img src="{{ asset('imgs/icon-4.svg') }}" alt="">
-                        <p>Caída del 9%<br/> de préstamos<br/> comerciales<br/> e industriales </p>
-                    </div>        
+                        <p>Caída del 9%
+                            de préstamos comerciales
+                            e industriales
+                        </p>
+                    </div>
                 </div>
                 <div class="boxes row">
                     <div class="col-md-4 boxMain greenBox5">
@@ -39,15 +45,18 @@
                     </div>
                     <div class="col-md-4 boxMain greenBox6">
                         <img src="{{ asset('imgs/icon-6.svg') }}" alt="">
-                        <p>Incertidumbre política y<br/> macroeconómica</p>
+                        <p>Incertidumbre política y macroeconómica</p>
         
                     </div>
                     <div class="col-md-4 boxMain greenBox7">
                         <img src="{{ asset('imgs/icon-7.svg') }}" alt="">
-                        <p>Incertidumbre generalizada:<br/> precios, tasa de cambio y<br/> tasas de Interés </p>
+                        <p>Incertidumbre generalizada: precios, tasa de cambio y tasas de Interés
+                        </p>
                     </div>
+        
                 </div>
-            </div><!-- /.container-fluid -->        
+            </div><!-- /.container-fluid -->
+                
         </div>
         <!-- /.content-wrapper -->        
     </div>
