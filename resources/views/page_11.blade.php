@@ -12,12 +12,19 @@
         <!-- -->
         <div id="content-wrapper">
             <nav class="navbar static-top">    
-                <h1 class="mainTitle">¿Lideres KC sobre CCC</h1>    
+                <h1 class="mainTitle">Descuento pronto pago</h1>    
                 <img class="iconLogo" src="{{ asset('imgs/icon-logo.svg') }}" alt="">
             </nav>
             <div class="container-fluid contentBox">
-                <div class="contentGreenBox">
-                    <img class="mainImg" src="{{ asset('imgs/page-4-bg.png') }}" alt="">
+                <div class="content3 contentPagoAntes row">
+                    <div class="topLineColor"></div>
+                    <div class="col-md-8">
+                        <br>
+                        <img class="animated bounceInLeft guy" src="{{ asset('imgs/pronto-pago-paso1.png') }}" alt="">
+                    </div>
+                    <div class="col-md-4 cicloSteps ciclo">
+                
+                    </div>
                 </div><!-- /.container-fluid -->
             </div><!-- /.container-fluid -->        
         </div>

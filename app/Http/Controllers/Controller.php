@@ -116,6 +116,7 @@ class Controller extends BaseController
         $this->data['css']['externals'][] = 'https://fonts.googleapis.com/css?family=Poppins:200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap';
         // Load Internals CSS Files.
         $this->data['css']['internals'][] = 'all.min.css';
+        $this->data['css']['internals'][] = 'animate.min.css';
         $this->data['css']['internals'][] = 'dataTables.bootstrap4.css';
         $this->data['css']['internals'][] = 'sb-admin.css';
         $this->data['css']['internals'][] = 'app.css';

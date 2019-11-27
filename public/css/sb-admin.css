@@ -40,6 +40,40 @@
   --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
+body {
+  overflow: hidden!important;
+}
+
+.NexFooter .col-md-6 {
+  padding: 0;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col, .col-auto,
+.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm, .col-sm-auto,
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md, .col-md-auto,
+.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg, .col-lg-auto,
+.col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl, .col-xl-auto {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.row {
+  margin-right: 0px!important;
+  margin-left: 0px!important;
+}
+
+.container-fluid {
+  font-size: 1.4rem;
+  text-align: center;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.nav-link {
+  text-align: center!important;
+}
 
 *,
 *::before,
@@ -90,6 +124,7 @@ h1, h2, h3, h4, h5, h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
+  font-size: 0.8em;
 }
 
 
@@ -103,6 +138,20 @@ html, body{
   background:#53b58e;
 }
 
+.ciclo .guy{
+  width: 72%;
+}
+
+
+.cicloSteps img{
+margin-bottom: 60px;
+  margin-top: 60px;
+}
+
+.ciclo img{
+  display: block;
+  width: 100%;
+}
 
 .greenBox2{
   background: #90cdb5;
@@ -154,9 +203,7 @@ html, body{
   height: 100%;
 }
 .greenBoxMain .mainBG img {
-  width: 78%!important;
-  right: 0px!important;
-  bottom: -78px!important;
+
 }
 
 .greenBoxMain .navbar{
@@ -253,7 +300,7 @@ display: block;
   display: block;
   position: absolute;
   max-width: 139px;
-  right: -11px;
+  right: -24px;
   top: -4px;
   width: 100%;
   height: 107%;
@@ -309,30 +356,28 @@ display: block;
 }
 
 .circlesEachOption {
-  position: absolute;
-  top: 0;
+
 }
 .circlesEachOption img{
   display: block;
   width: 200px;
 }
-.circlesEachOption .ventas, .circlesEachOption .circleBlue1{
+.circlesEachOption .ventas, .circlesEachOption .circleBlue1 {
   position: absolute;
-  left: 234px;
-  top: -10px;
+  left: 37%;
+  top: 0%;
 }
 
-.circlesEachOption .apply{
+.circlesEachOption .apply {
   position: absolute;
-  top: 100px;
+  top: 16%;
+  left: 0;
 }
-
-.circlesEachOption .resolucion{
+.circlesEachOption .resolucion {
   position: absolute;
-  top: 312px;
-  left: -24px;
+  top: 48%;
+  left: -2%;
 }
-
 .circlesEachOption .circleBlue2 {
   position: absolute;
   top: 98px;
@@ -347,10 +392,9 @@ display: block;
 
 .circlesEachOption .recaudo {
   position: absolute;
-  top: 480px;
-  left: 115px;
+  bottom: 7%;
+  left: 21%;
 }
-
 .circlesEachOption .circleBlue3 {
   position: absolute;
   top: 326px;
@@ -358,8 +402,8 @@ display: block;
 }
 .circlesEachOption .facturacion {
   position: absolute;
-  top: 482px;
-  left: 351px;
+  bottom: 9%;
+  right: 20%;
 }
 
 .circlesEachOption .circleBlue4 {
@@ -367,10 +411,10 @@ display: block;
   top: 446px;
   left: 277px;
 }
-.circlesEachOption .orden{
+.circlesEachOption .orden {
   position: absolute;
-  top: 317px;
-  left: 539px;
+  top: 45%;
+  right: -3%;
 }
 
 .circlesEachOption .circleBlue5 {
@@ -384,31 +428,57 @@ display: block;
   left: 3px;
   width: 300px;
 }
-
 .circlesEachOption .adminCredit {
   position: absolute;
-  left: 501px;
-  top: 93px;
+  right: 0;
+  top: 16%;
 }
 .circleOptions{
+  position: relative!important;
+}
+
+.greenBoxMain{
   position: relative;
+}
+
+.greenBoxMain .container-fluid{
+  padding: 0;
+}
+
+.greenBoxMain img{
+  width: 100%;
+}
+
+.greenBoxMain .iconRight {
+  position: absolute;
+  width: 66px;
+  right: 20px;
 }
 
 .circleOptions .mainInfo {
   color: #fff;
   position: absolute;
-  top: 33%;
-  max-width: 350px;
+  top: 36%;
+  max-width: 300px;
   width: 100%;
   left: 28%;
   text-align: center;
   right: 28%;
 }
-.circleBox .col-md-5 img {
+.circleOptions .mainBlue {
   position: absolute;
-  right: -134px;
-  bottom: 44px;
-  width: 118%;
+  top: 23%;
+  max-width: 250px;
+  width: 100%;
+  left: 30%;
+}
+
+.circleOptions .mainBlue img{
+  width: 100%;
+}
+
+.circleBox .col-md-5 img {
+
 }
 .redBox .navbar-expand {
   background: #ec3246;
@@ -430,7 +500,176 @@ display: block;
   margin-right: 8px;
 }
 
-  /*END main styles app*/
+.bgGreen {
+    background: url(../imgs/blue-main-bg.jpg) no-repeat scroll right 0;
+    background-size: cover;
+}
+
+
+.contentPagoAntes{
+  background: url(../imgs/pronto-pago-Guy.png) no-repeat scroll right 0;
+  background-size: cover;
+}
+
+.quizBox{
+    background: url(../imgs/blue-main-bg.jpg) no-repeat scroll right 0;
+    background-size: cover;
+}
+
+.contentPagoAntes .topLineColor{
+    z-index: -1;
+}
+
+
+.quizInfo{
+    min-height: 600px;
+    height: 100%;
+    padding: 11% 5%;
+    color: #2b318b;
+}
+
+
+.quizInfo ul{
+    overflow: hidden;
+    width: 100%;
+}
+
+.quizInfo ul li {
+    text-align: left;
+    list-style: none;
+    font-size: 0.9em;
+}
+
+.quizInfo ul li label{
+    color: #2b318b;
+    font-size: 0.9em;
+}
+.quizInfo ul li label:hover{
+    font-weight: bold;
+}
+
+
+
+#wrapper .modal{
+    top: 50%;
+}
+
+.modal-header{
+    border: none;
+}
+
+
+.modal p{
+    color: #2b318b;
+}
+
+.modal-body {
+    position: relative;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1rem;
+    font-size: 0.7em;
+}
+
+#wrapper .close {
+    position: absolute;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #2b318b;
+    text-shadow: 0 1px 0 #fff;
+    opacity: 1;
+    right: 10px;
+    top: 10px;
+    z-index: 1000;
+}
+
+.purpleBox, .purpleBox nav{
+    background: #714d9b;
+}
+.purpleBox nav {
+    z-index: 0;
+    width: 56%;
+}
+
+.purpleBox{
+    background: url(../imgs/purple-main-bg.png) no-repeat scroll right 0  #714d9b;
+    background-size: contain;
+}
+
+.blueContainer, .blueContainer .topLineColor{
+    background: #2b318b;
+}
+.blueContainer .topLineColor h1, .blueContainer .topLineColor h2 {
+    color: #fff;
+    text-align: left;
+    padding: 0 0 0 25px;
+}
+
+.blueContainer .topLineColor{
+    height: 100%;
+    overflow: hidden;
+    width: 100%;
+}
+
+.blueContainer .topLineColor h1{
+    font-size: 6rem;
+}
+.blueContainer .topLineColor h2{
+    font-size: 4rem;
+    max-width: 60%;
+}
+
+.flowChart{
+    overflow: hidden;
+}
+
+
+.flowChart ul {
+    overflow: hidden;
+    width: 100%;
+}
+
+
+.flowChart ul li {
+    float: left;
+    width: 20%;
+    list-style: none;
+}
+.flowChart ul li h6{
+    color: white;
+    text-align: center;
+    margin-top: 25px;
+}
+
+
+.whiteBox{
+    background: white;
+}
+.whiteBox ul {
+    padding-top:20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+.whiteBox ul li {
+    float: none;
+    text-align: center;
+    width: 100%;
+    color: #2b318b;
+    border-bottom: 1px dashed #2b318b6e;
+    margin-bottom: 10px;
+}
+
+.whiteBox ul li:last-child{
+    border:none;
+}
+
+.whiteBox ul li h5{
+
+}
+
+/*END main styles app*/
 
 
 abbr[title],
@@ -925,6 +1164,10 @@ pre code {
 @media (min-width: 1200px) {
   .container {
     max-width: 1140px;
+  }
+
+  .circleOptions .mainInfo p{
+    font-size: 0.7em;
   }
 }
 
@@ -3655,6 +3898,26 @@ input[type="button"].btn-block {
   right: 0;
   left: auto;
 }
+
+@media (min-width: 1500px){
+  .circleOptions .mainInfo p {
+    font-size: 1em;
+  }
+}
+@media (max-width: 1367px){
+  .circlesEachOption img{
+    width: 160px;
+  }
+}
+
+
+
+@media (max-width: 1499px){
+  .circlesEachOption img{
+    width: 180px;
+  }
+}
+
 
 @media (min-width: 576px) {
   .dropdown-menu-sm-left {
@@ -6552,8 +6815,9 @@ a.close.disabled {
   background-color: #fff;
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.2);
-  border-radius: 0.3rem;
+  border-radius: 0.9rem;
   outline: 0;
+    padding: 2%;
 }
 
 .modal-backdrop {
@@ -10921,6 +11185,11 @@ body {
 #wrapper #content-wrapper {
   width: 100%;
   height: 100vh;
+}
+
+
+.colorBoxes{
+  padding: 0!important;
 }
 .scroll-to-top {
   position: fixed;
