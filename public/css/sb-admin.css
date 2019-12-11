@@ -177,7 +177,7 @@ margin-bottom: 60px;
 }
 
 .boxes img {
-  max-width: 100px;
+  max-width: 42%;
   width: 100%;
   margin: 0 auto 40px;
   display: block;
@@ -203,7 +203,7 @@ margin-bottom: 60px;
   height: 100%;
 }
 .greenBoxMain .mainBG img {
-
+  position: relative!important;
 }
 
 .greenBoxMain .navbar{
@@ -378,6 +378,20 @@ display: block;
   top: 48%;
   left: -2%;
 }
+.boxBlue .circlesEachOption .resolucion {
+  position: absolute;
+  top: 43%;
+  left: -8%;
+}
+
+.boxBlue .circlesEachOption .recaudo {
+  position: absolute;
+  bottom: -3%;
+  left: 18%;
+}
+.boxBlue .circlesEachOption .resolucion img{
+  width: 300px;
+}
 .circlesEachOption .circleBlue2 {
   position: absolute;
   top: 98px;
@@ -455,10 +469,34 @@ display: block;
   right: 20px;
 }
 
+.boxBlue .circlesEachOption img {
+  width: 250px;
+}
+
+.anticipo{
+  position: absolute;
+  right: 0;
+  top: 16%;
+}
+
+.anticipo img {
+  width: 250px!important;
+}
 .circleOptions .mainInfo {
   color: #fff;
   position: absolute;
   top: 36%;
+  max-width: 300px;
+  width: 100%;
+  left: 28%;
+  text-align: center;
+  right: 28%;
+}
+
+.circleOptions .mainCuentas {
+  color: #fff;
+  position: absolute;
+  top: 27%;
   max-width: 300px;
   width: 100%;
   left: 28%;
@@ -477,8 +515,15 @@ display: block;
   width: 100%;
 }
 
-.circleBox .col-md-5 img {
+.redBox .circleBox .col-md-5 img {
+  right: -69px;
+}
 
+.circleBox .col-md-5 img {
+  position: absolute;
+  bottom: 0;
+  width: 117%!important;
+  right: -14px;
 }
 .redBox .navbar-expand {
   background: #ec3246;
@@ -492,6 +537,11 @@ display: block;
   position: absolute;
   bottom: 2%;
   right: 25px;
+}
+.pageBox strong {
+  color: #2b318b;
+  font-size: 2em;
+  text-shadow: 1px 1px 1px #0000004d;
 }
 
 .nav-link img {
@@ -669,7 +719,9 @@ display: block;
 
 }
 
-
+.boxBlue{
+  background: #2b318b;
+}
 
 /*media queries*/
 
@@ -681,6 +733,16 @@ display: block;
     max-width: 250px;
     width: 100%;
     left: 200px;
+  }
+  .boxes p {
+    color: #fff;
+    font-size: 1.5rem;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    bottom: 101px;
+    max-width: 84%;
+    left: 7%;
   }
 
   .circlesEachOption .ventas, .circlesEachOption .circleBlue1 {
@@ -701,6 +763,10 @@ display: block;
     top: 422px;
     left: 249px;
   }
+
+  .blueBox3 img {
+    max-width: 100%!important;
+  }
   .iconLogo {
     right: -6px;
   }
@@ -711,6 +777,10 @@ display: block;
 
   .quizBox {
     height: 100vh;
+  }
+
+  .boxes img {
+    max-width: 65%;
   }
 }
 
