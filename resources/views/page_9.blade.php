@@ -19,7 +19,7 @@
                 <div class="circleBox row">
                     <div class="col-md-7 circleOptions">
                         <div class="circlesEachOption animated zoomInLeft">
-                            <a class="buble circleBlue1" href=""><img src="{{ asset('imgs/dia0-icon.svg') }}" alt=""></a>
+                            <a class="animated bounceIn buble circleBlue1 mainCircleBlue" href=""><img src="{{ asset('imgs/dia0-icon.svg') }}" alt=""></a>
                             <a class="buble circleBlue2" href=""><img src="{{ asset('imgs/dia-46-icon.svg') }}" alt=""></a>
                             <a class="buble circleBlue3" href=""><img src="{{ asset('imgs/dia-16-icon.svg') }}" alt=""></a>
                             <a class="buble circleBlue4" href=""><img src="{{ asset('imgs/dia-15-icon.svg') }}" alt=""></a>
