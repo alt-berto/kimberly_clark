@@ -10,19 +10,66 @@
         <!-- Sidebar -->
         <side-menu-component page-num="{{ $page }}"></side-menu-component>
         <!-- -->
-        <div id="content-wrapper">
-            <nav class="navbar static-top">    
-                <h1 class="mainTitle">--</h1>    
-                <img class="iconLogo" src="{{ asset('imgs/icon-logo.svg') }}" alt="">
+        <div id="content-wrapper" class="redBox">
+
+            <nav class="navbar static-top">
+
+                <h1 class="mainTitle">Procesos de cuentas por pagar</h1>
+
             </nav>
-            <div class="container-fluid contentBox">
-                <div class="content3">
-                    <div class="topLineColor"></div>
-                    
-                </div><!-- /.container-fluid -->
-            </div><!-- /.container-fluid -->        
+            <div class="container-fluid">
+                <div class="row circleBox">
+                    <div class="col-md-7 circleOptions">
+                        <img src="{{ asset('imgs/circle-shape.png') }}" alt="" style="width: 100%"/>
+
+                        <div class="circlesEachOption">
+                            <a class="ventas buble" href="">
+
+                                <img src="{{ asset('imgs/ventas-icon.svg') }}" alt="">
+                            </a>
+                            <a class="apply buble" href="">
+                                <img src="{{ asset('imgs/aplicacion-de-pagos-icon.svg') }}" alt="">
+                            </a>
+                            <a class="resolucion buble" href="">
+                                <img src="{{ asset('imgs/resolucion-icon.svg') }}" alt="">
+                            </a>
+                            <a class="recaudo buble" href="">
+                                <img src="{{ asset('imgs/recaudacion-icon.svg') }}" alt="">
+                                </a>
+                            <a class="facturacion buble" href="">
+                                <img src="{{ asset('imgs/facturacion-icon.svg') }}" alt="">
+                            </a>
+                            <a class="orden buble" href="">
+                                <img src="{{ asset('imgs/ordenamiento-icon.svg') }}" alt="">
+                                </a>
+                            <a class="adminCredit buble" href="">
+                                <img src="{{ asset('imgs/admin-credit.svg') }}" alt="">
+                            </a>
+
+                        </div>
+                        <div class="mainInfo">
+                            <p>Al dar click en alguna
+                                de las secciones (Ventas,
+                                Administración del Crédito,
+                                Ordenamiento, etc)  debe aparecer
+                                el texto explicatvo aquí junto con la
+                                flecha correspondiente
+
+                                Cuando se dá click en el siguiente
+                                globo, el texto cambia</p>
+                        </div>
+
+                    </div>
+                    <div class="col-md-5 mainBG">
+                        <img src="{{ asset('imgs/cuentas-bg.png') }}" alt="" style="width: 100%">
+                    </div>
+                </div>
+            </div><!-- /.container-fluid -->
+
+
+
         </div>
-        <!-- /.content-wrapper -->        
+        <!-- /.content-wrapper -->
     </div>
     <!-- /#wrapper -->
 
