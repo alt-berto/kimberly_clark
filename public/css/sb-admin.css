@@ -501,19 +501,19 @@ display: block;
 }
 
 .bgGreen {
-    background: url(../imgs/blue-main-bg.jpg) no-repeat scroll right 0;
-    background-size: cover;
+    background: url(../imgs/green-bg-guy.png) no-repeat scroll right 0;
+  background-size: 50%;
 }
 
 
-.contentPagoAntes{
+.contentPagoAntes {
   background: url(../imgs/pronto-pago-Guy.png) no-repeat scroll right 0;
-  background-size: cover;
+  background-size: 50%;
 }
 
 .quizBox{
     background: url(../imgs/blue-main-bg.jpg) no-repeat scroll right 0;
-    background-size: cover;
+  background-size: cover;
 }
 
 .contentPagoAntes .topLineColor{
@@ -667,6 +667,51 @@ display: block;
 
 .whiteBox ul li h5{
 
+}
+
+
+
+/*media queries*/
+
+
+@media only screen and (min-device-width: 1536px) and (max-device-width: 4500px) {
+  .circleOptions .mainBlue {
+    position: absolute;
+    top: 165px;
+    max-width: 250px;
+    width: 100%;
+    left: 200px;
+  }
+
+  .circlesEachOption .ventas, .circlesEachOption .circleBlue1 {
+    position: absolute;
+    left: 40%;
+    top: 0%;
+  }
+  .circlesEachOption .mainCircleBlue {
+    left: 23%;
+  }
+
+  .circleOptions {
+    position: relative!important;
+    margin-top: 91px;
+  }
+  .circlesEachOption .circleBlue4 {
+    position: absolute;
+    top: 422px;
+    left: 249px;
+  }
+  .iconLogo {
+    right: -6px;
+  }
+  .circleOptions .mainInfo {
+    max-width: 500px;
+    left: 25%;
+  }
+
+  .quizBox {
+    height: 100vh;
+  }
 }
 
 /*END main styles app*/
@@ -3904,6 +3949,9 @@ input[type="button"].btn-block {
     font-size: 1em;
   }
 }
+
+
+
 @media (max-width: 1367px){
   .circlesEachOption img{
     width: 160px;
@@ -3962,6 +4010,10 @@ input[type="button"].btn-block {
     left: auto;
   }
 }
+
+
+
+
 
 .dropup .dropdown-menu {
   top: auto;
