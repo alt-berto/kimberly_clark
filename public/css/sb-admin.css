@@ -386,8 +386,8 @@ display: block;
 
 .boxBlue .circlesEachOption .recaudo {
   position: absolute;
-  bottom: -3%;
-  left: 18%;
+  bottom: 4%;
+  left: 21%;
 }
 .boxBlue .circlesEachOption .resolucion img{
   width: 300px;
@@ -468,9 +468,8 @@ display: block;
   width: 66px;
   right: 20px;
 }
-
 .boxBlue .circlesEachOption img {
-  width: 250px;
+  width: 215px;
 }
 
 .anticipo{
@@ -505,10 +504,26 @@ display: block;
 }
 .circleOptions .mainBlue {
   position: absolute;
-  top: 23%;
+  top: 193px;
   max-width: 250px;
   width: 100%;
-  left: 30%;
+  left: 208px;
+}
+
+.boxBlueLight {
+  background: #a2bde2;
+  height: 100%;
+  min-height: 500px;
+}
+
+.lastContent {
+  padding-top: 4%;
+}
+
+.boxBlueLight h5, .lastContent h5 {
+  color: #2b318b;
+  text-align: center;
+  margin-left: -34px;
 }
 
 .circleOptions .mainBlue img{
@@ -533,6 +548,26 @@ display: block;
   background: #ec3246;
   padding: 0!important;
 }
+
+.redBoxes{
+  background: #ec3246;
+}
+
+
+.redBoxes .red1{background: #ce2b3e;
+}
+
+.redBoxes .red3{background: #af2133;
+}
+
+.redBoxes .red2{
+  background: #f55364;
+}
+
+.greenWrapper, .greenWrapper .navbar{
+  background: #53b58e;
+}
+
 .pageBox {
   position: absolute;
   bottom: 2%;
@@ -743,6 +778,13 @@ display: block;
     bottom: 101px;
     max-width: 84%;
     left: 7%;
+  }
+  .boxBlue .circlesEachOption .recaudo {
+    bottom: 11%;
+  }
+
+  .circleOptions .mainCuentas {
+    max-width: 466px;
   }
 
   .circlesEachOption .ventas, .circlesEachOption .circleBlue1 {
