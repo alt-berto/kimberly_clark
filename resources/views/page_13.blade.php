@@ -50,8 +50,7 @@
                             
                                         <div class="modal-body">
                                             ¡Muy bien! La Fórmula del DSO es:
-                                            <img src="imgs/total.svg" alt="">
-                                        </div>
+                                            <img src="{{ asset('imgs/total.svg') }}" alt=""></div>
                                     </div>
                                 </div>
                             </div>
