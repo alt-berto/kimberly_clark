@@ -799,6 +799,34 @@ display: block;
   background: #2b318b;
 }
 
+.boxes .col-md-6 img {
+  max-width: 29%;
+  width: 100%;
+  margin: 0 auto -1px;
+  display: block;
+}
+
+.redBoxMain .navbar{
+  background: #ec3246;
+}
+
+
+.redBoxMain .col-md-8 img {
+  width: 100%;
+}
+
+
+.redBoxMain .bgGreen {
+  background: url(../imgs/banco-25.svg) no-repeat scroll right 0;
+  background-size: 50%;
+}
+
+.factoring img {
+  display: block;
+  height: auto;
+  max-width: 91%;
+}
+
 /*media queries*/
 
 

@@ -17,52 +17,41 @@
             </nav>
             <div class="container-fluid colorBoxes">
                 <div class="boxes row">
-                    <div class="col-md-3 boxMain blueBox1">
-                        <img src="{{ asset('imgs/search-icon.svg') }}" alt="">
-                        <p>Tracking y
-                        seguimiento
-            
+                    <div class="col-md-6 boxMain blueBox1">
+                        <a href=""><img src="{{ asset('imgs/compras-admin-icon-24.svg') }}" alt=""></a>
+                        <p>Compras y
+                            administración de
+                            proveedores
                         </p>
                     </div>
-                    <div class="col-md-3 boxMain blueBox2">
-                        <img src="{{ asset('imgs/politicas-icon.svg') }}" alt="">
-                        <p>Políticas y
-                        procedimientos
-                        robustos
-            
+                    <div class="col-md-6 boxMain blueBox2">
+                        <a href=""><img src="{{ asset('imgs/factura-process-icon-24.svg') }}" alt=""></a>
+                        <p>Procesamiento
+                            de facturas
                         </p>
                     </div>
-                    <div class="col-md-3 boxMain blueBox3">
-                        <img src="{{ asset('imgs/playbook.svg') }}" alt="">
-                    </div>
-                    <div class="col-md-3 boxMain blueBox1">
-                        <img src="{{ asset('imgs/profesional-icon.svg') }}" alt="">
-                        <p>Profesionalizando
-                        la operación
-            
-                        </p>
-                    </div>        
+
                 </div>
                 <div class="boxes row">
-                    <div class="col-md-4 boxMain blueBox5">
-                        <img src="{{ asset('imgs/vehiculos-financieros-icon.svg') }}" alt="">
-                        <p>Vehículos
-                            financieros
+                    <div class="col-md-6 boxMain blueBox1">
+                        <a href=""> <img src="{{ asset('imgs/icon-process-24.svg') }}" alt=""></a>
+
+                        <p>Procesamiento
+                            de pagos
+
                         </p>
                     </div>
-                    <div class="col-md-4 boxMain blueBox6">
-                        <img src="{{ asset('imgs/investigacion-icon.svg') }}" alt="">
-                        <p>Investigación y benchmark del mercado
-                        </p>
-        
-                    </div>
-                    <div class="col-md-4 boxMain blueBox5">
-                        <img src="{{ asset('imgs/trofeo-icon.svg') }}" alt="">
-                        <p>Objetivos y campañas de reconocimiento comunes
-            
+                    <div class="col-md-6 boxMain blueBox2">
+                        <a href="">  <img src="{{ asset('imgs/icon-reports-24.svg') }}" alt=""></a>
+
+                        <p>Reportes y
+                            visibilidad
+
                         </p>
                     </div>
+
                 </div>
+
             </div><!-- /.container-fluid -->        
         </div>
         <!-- /.content-wrapper -->        
