@@ -564,6 +564,47 @@ display: block;
   background: #f55364;
 }
 
+.blueCuentas .circlesEachOption .apply {
+    position: absolute;
+    top: 57px;
+    left: 45px;
+}
+
+.blueCuentas .circlesEachOption .ventas{
+    position: absolute;
+    left: 301px;
+    top: 0%;
+}
+
+.blueCuentas .anticipo {
+    position: absolute;
+    right: 10px;
+    top: 14%;
+}
+
+.blueCuentas .circlesEachOption img {
+    width: 192px;
+}
+
+.blueCuentas .anticipo img {
+    width: 189px!important;
+}
+
+.blueCuentas .circlesEachOption .facturacion {
+    position: absolute;
+    bottom: 0;
+    right: 16%;
+}
+
+.blueCuentas  .circlesEachOption .resolucion {
+    left:0;
+}
+
+.blueCuentas .circlesEachOption .resolucion img {
+    width: 200px;
+}
+
+
 .greenWrapper, .greenWrapper .navbar{
   background: #53b58e;
 }
@@ -769,6 +810,20 @@ display: block;
     width: 100%;
     left: 200px;
   }
+    .blueCuentas .circleOptions {
+        margin-top: 0;
+    }
+    .blueCuentas .circlesEachOption .ventas {
+        position: absolute;
+        left: 438px;
+        top: 0%;
+    }
+    .blueCuentas .circlesEachOption img {
+        width: 280px!important;
+    }
+    .blueCuentas .circleOptions .mainCuentas {
+        top: 22%;
+    }
   .boxes p {
     color: #fff;
     font-size: 1.5rem;
