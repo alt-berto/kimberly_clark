@@ -815,7 +815,6 @@ display: block;
   width: 100%;
 }
 
-
 .redBoxMain .bgGreen {
   background: url(../imgs/banco-25.svg) no-repeat scroll right 0;
   background-size: 50%;
@@ -827,6 +826,32 @@ display: block;
   max-width: 91%;
 }
 
+
+.purpleBoxMain, .purpleBoxMain .navbar{
+  background: #714d9b;
+}
+
+.purpleBoxMain {
+  background: url(../imgs/playbook-enter.png) no-repeat scroll right 0 #714d9b;
+  background-size: contain;
+}
+
+
+.purple2BoxMain{
+  background: url(../imgs/playbook-main2.png) no-repeat scroll right 0 white;
+  background-size: contain;
+}
+
+.purple2BoxMain .col-md-6 img {
+  max-width: 70%;
+  margin-top: 155px;
+  display: block;
+}
+
+
+.purple2BoxMain .navbar {
+  border-bottom: 30px solid #714d9b;
+}
 /*media queries*/
 
 
