@@ -12,18 +12,48 @@
         <!-- -->
         <div id="content-wrapper">
             <nav class="navbar static-top">    
-                <h1 class="mainTitle">Descuento pronto pago</h1>    
-                <img class="iconLogo" src="{{ asset('imgs/icon-logo.svg') }}" alt="">
+                <h1 class="mainTitle">Quiz DSO</h1>    
+                <!--<img class="iconLogo" src="{{ asset('imgs/icon-logo.svg') }}" alt="">-->
             </nav>
-            <div class="container-fluid contentBox">
-                <div class="content3 contentPagoAntes row">
+            <div class="container-fluid contentBox quizBox">
+                <div class="content3">
                     <div class="topLineColor"></div>
-                    <div class="col-md-8">
-                        <br>
-                        <img class="animated bounceInLeft guy" src="{{ asset('imgs/pronto-pago-paso1.png') }}" alt="">
-                    </div>
-                    <div class="col-md-4 cicloSteps ciclo">
-                
+                    <div class="quizInfo">
+                        <p class="animated bounceInDown">1. ¿Solo las cuentas comerciales son las que impactan el DSO?
+                        </p>
+                        
+                            <ul class="animated rubberBand">
+                            <li>
+                                <input type="checkbox" name="verdadero" value="verdadero" id="id_true">
+                                <label for="id_true">Verdadero</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="verdadero" value="verdadero" id="id_true2">
+                                <label for="id_true2">Falso</label>
+                            </li>
+                            </ul>
+                            <div class="boxWhite">
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                                deplegar respuesta correcta
+                            </button>
+                        
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                        
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                        
+                                    <div class="modal-body">
+                                    ¡Así es! Recuerda que las cuentas Intercompany, dividendos por cobrar, impuestos por cobrar, entre otros, también afectan el DSO de la compañía
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div><!-- /.container-fluid -->
             </div><!-- /.container-fluid -->        
@@ -31,7 +61,15 @@
         <!-- /.content-wrapper -->        
     </div>
     <!-- /#wrapper -->
-
+    <div class="playBox">
+        <audio id="myAudio">
+            <source src="{{ asset( 'audio/page_'.$page.'.ogg' ) }}" type="audio/ogg">
+            <source src="{{ asset( 'audio/page_'.$page.'.mp3' ) }}" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        <button id="btn_audio" class='btn_audio'> Play </button>
+    </div>
+    
     <div class="pageBox">
         <p><strong>{{ $page }}</strong></p>
     </div>

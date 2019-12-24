@@ -61,7 +61,15 @@
         <!-- /.content-wrapper -->        
     </div>
     <!-- /#wrapper -->
-
+    <div class="playBox">
+        <audio id="myAudio">
+            <source src="{{ asset( 'audio/page_'.$page.'.ogg' ) }}" type="audio/ogg">
+            <source src="{{ asset( 'audio/page_'.$page.'.mp3' ) }}" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        <button id="btn_audio" class='btn_audio'> Play </button>
+    </div>
+    
     <div class="pageBox">
         <p><strong>{{ $page }}</strong></p>
     </div>

@@ -10,46 +10,74 @@
         <!-- Sidebar -->
         <side-menu-component page-num="{{ $page }}"></side-menu-component>
         <!-- -->
-        <div id="content-wrapper" class="purpleBox">
+        <div id="content-wrapper">
             <nav class="navbar static-top">    
-                <h1 class="mainTitle">Procesos con los Inventarios</h1>    
-                <!--<img class="iconLogo" src="{{ asset('imgs/icon-logo.svg') }}" alt="">-->
+                <!--<h1 class="mainTitle">¿Por qué se presta atención a la liquidez?</h1>    
+                <img class="iconLogo" src="{{ asset('imgs/icon-logo.svg') }}" alt="">-->
             </nav>
-            <div class="container-fluid">
-                <div class="row circleBox">
-                    <div class="col-md-7 circleOptions">
-                        <img src="{{ asset('imgs/circle-shape.png') }}" style="width: 100%"/>
-                        <div class="circlesEachOption">
-                            <a class="ventas buble" href=""><img src="{{ asset('imgs/admin-products.svg') }}" alt=""></a>
-                            <a class="apply buble" href=""><img src="{{ asset('imgs/distribucion-icon.svg') }}" alt=""></a>
-                            <a class="resolucion buble" href=""><img src="{{ asset('imgs/almacenaje-icon.svg') }}" alt=""></a>
-                            <a class="recaudo buble" href=""><img src="{{ asset('imgs/manufactura-icon.svg') }}" alt=""></a>
-                            <a class="facturacion buble" href=""><img src="{{ asset('imgs/plan-icon.svg') }}" alt=""></a>
-                            <a class="orden buble" href=""><img src="{{ asset('imgs/proceso-icon.svg') }}" alt=""></a>
-                            <a class="adminCredit buble" href=""><img src="{{ asset('imgs/proyecciones.svg') }}" alt=""></a>                
-                        </div>
-                        <div class="mainInfo">
-                            <p>Al dar click en alguna
-                                de las secciones (Ventas,
-                                Administración del Crédito,
-                                Ordenamiento, etc)  debe aparecer
-                                el texto explicatvo aquí junto con la
-                                flecha correspondiente
-                
-                                Cuando se dá click en el siguiente
-                                globo, el texto cambia
-                            </p>
-                        </div>
-            
+            <div class="container-fluid contentBox blueContainer">
+                <div class="content3">
+                    <div class="topLineColor">
+                            <h1>Flowchart</h1>
+                            <h2>de la cadena
+                                de suministros</h2>
                     </div>
-                    <div class="col-md-5"></div>
-                </div>
+                    <div class="flowChart">
+                        <ul>
+                            <li class="animated fadeInLeft">
+                                <img src="{{ asset('imgs/proveedores-icon.svg') }}" alt="">
+                                <h6>Proveedores</h6>
+                            </li>
+                            <li class="animated fadeInDown">
+                                <img src="{{ asset('imgs/manufactura1-icon.svg') }}" alt="">
+                                <h6>Manufactura </h6>
+                            </li>
+                            <li class="animated flip">
+                                <img src="{{ asset('imgs/car-distribucion-icon.svg') }}" alt="">
+                                <h6>Distribución </h6>
+                            </li>
+                            <li class="animated fadeInUp">
+                                <img src="{{ asset('imgs/comercio-icon.svg') }}" alt="">
+                                <h6>Comercialización</h6>
+                            </li>
+                            <li class="animated fadeInRight">
+                                <img src="{{ asset('imgs/consumer-icon.svg') }}" alt="">
+                                <h6>Consumidor</h6>
+                            </li>
+                        </ul>
+                        
+                        <div class="whiteBox">
+                            <ul>
+                                <li>
+                                    <h5>Productos y servicios
+                                    </h5>
+                                </li>
+                                <li>
+                                    <h5>Efectivo</h5>
+                                </li>
+                                <li>
+                                    <h5>Información</h5>
+                                </li>
+                            </ul>
+                        </div>                        
+                    </div><!--close flow chart-->
+                         
+                    
+                </div><!-- /.container-fluid -->
             </div><!-- /.container-fluid -->        
         </div>
         <!-- /.content-wrapper -->        
     </div>
     <!-- /#wrapper -->
-
+    <div class="playBox">
+        <audio id="myAudio">
+            <source src="{{ asset( 'audio/page_'.$page.'.ogg' ) }}" type="audio/ogg">
+            <source src="{{ asset( 'audio/page_'.$page.'.mp3' ) }}" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        <button id="btn_audio" class='btn_audio'> Play </button>
+    </div>
+    
     <div class="pageBox">
         <p><strong>{{ $page }}</strong></p>
     </div>

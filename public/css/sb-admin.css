@@ -609,6 +609,17 @@ display: block;
   background: #53b58e;
 }
 
+.playBox {
+  position: absolute;
+  bottom: 2%;
+  left: 25px;
+}
+.playBox strong {
+  color: #2b318b;
+  font-size: 2em;
+  text-shadow: 1px 1px white;
+}
+
 .pageBox {
   position: absolute;
   bottom: 2%;
@@ -617,7 +628,7 @@ display: block;
 .pageBox strong {
   color: #2b318b;
   font-size: 2em;
-  text-shadow: 1px 1px 1px #0000004d;
+  text-shadow: 1px 1px white;
 }
 
 .nav-link img {

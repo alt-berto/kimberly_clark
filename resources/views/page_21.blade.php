@@ -10,59 +10,77 @@
         <!-- Sidebar -->
         <side-menu-component page-num="{{ $page }}"></side-menu-component>
         <!-- -->
-        <div id="content-wrapper">
-            <nav class="navbar static-top">    
-                <h1 class="mainTitle">Quiz DSO</h1>    
-                <!--<img class="iconLogo" src="{{ asset('imgs/icon-logo.svg') }}" alt="">-->
+        <div id="content-wrapper" class="greenWrapper">
+
+            <nav class="navbar static-top">
+
+                <h1 class="mainTitle">Procesos con las cuentas por pagar</h1>
+
             </nav>
-            <div class="container-fluid contentBox quizBox">
-                <div class="content3">
-                    <div class="topLineColor"></div>
-                    <div class="quizInfo">
-                        <p class="animated bounceInDown">
-                            3. Una de las claves del DIO es mantener alineada la estrategia commercial con la estrategia logística de marketing?</p>
-                        
-                        <ul class="animated rubberBand">
-                            <li>
-                                <input type="checkbox" name="verdadero" value="verdadero" id="id_true">
-                                <label for="id_true">Verdadero</label>
-                            </li>
-                            <li>
-                                <input type="checkbox" name="verdadero" value="verdadero" id="id_true2">
-                                <label for="id_true2">Falso</label>
-                            </li>
-                        </ul>
-                        <div class="boxWhite">
-                            <!-- Button trigger modal -->
-                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-                                deplegar respuesta correcta
-                            </button>
-                        
-                            <!-- Modal -->
-                            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                <div class="modal-dialog" role="document">
-                                    <div class="modal-content">
-                            
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                            
-                                        <div class="modal-body">
-                                            ¡Así es! Una estrategia comercial alineada con la de marketing son clave para tener niveles saludables de inventarios
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+            <div class="container-fluid">
+                <div class="row circleBox">
+                    <div class="col-md-7 circleOptions">
+                        <img src="{{ asset('imgs/circle-shape.png') }}" alt="" style="width: 100%"/>
+
+                        <div class="circlesEachOption">
+                            <a class="ventas buble" href="">
+
+                                <img src="{{ asset('imgs/icon-origen.svg') }}" alt="">
+                            </a>
+                            <a class="apply buble" href="">
+                                <img src="{{ asset('imgs/icon-procesos.svg') }}" alt="">
+                            </a>
+                            <a class="resolucion buble" href="">
+                                <img src="{{ asset('imgs/icon-procesamiento.svg') }}" alt="">
+                            </a>
+                            <a class="recaudo buble" href="">
+                                <img src="{{ asset('imgs/icon-recepcion.svg') }}" alt="">
+                                </a>
+                            <a class="facturacion buble" href="">
+                                <img src="{{ asset('imgs/icon-orden.svg') }}" alt="">
+                            </a>
+                            <a class="orden buble" href="">
+                                <img src="{{ asset('imgs/icon-proveedor-admin.svg') }}" alt="">
+                                </a>
+                            <a class="adminCredit buble" href="">
+                                <img src="{{ asset('imgs/icon-proveedor.svg') }}" alt="">
+                            </a>
+
                         </div>
+                        <div class="mainInfo">
+                            <p>Al dar click en alguna
+                                de las secciones (Ventas,
+                                Administración del Crédito,
+                                Ordenamiento, etc)  debe aparecer
+                                el texto explicatvo aquí junto con la
+                                flecha correspondiente
+
+                                Cuando se dá click en el siguiente
+                                globo, el texto cambia</p>
+                        </div>
+
                     </div>
-                          
-                </div><!-- /.container-fluid -->
-            </div><!-- /.container-fluid -->        
+                    <div class="col-md-5 mainBG">
+                        <img src="{{ asset('imgs/bg-22-page.png') }}" alt="" style="width: 100%">
+                    </div>
+                </div>
+            </div><!-- /.container-fluid -->
+
+
+
         </div>
-        <!-- /.content-wrapper -->        
+        <!-- /.content-wrapper -->
     </div>
     <!-- /#wrapper -->
-
+    <div class="playBox">
+        <audio id="myAudio">
+            <source src="{{ asset( 'audio/page_'.$page.'.ogg' ) }}" type="audio/ogg">
+            <source src="{{ asset( 'audio/page_'.$page.'.mp3' ) }}" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        <button id="btn_audio" class='btn_audio'> Play </button>
+    </div>
+    
     <div class="pageBox">
         <p><strong>{{ $page }}</strong></p>
     </div>

@@ -27,8 +27,16 @@
         <div class="col-md-6">
           <a class="nextArrow" href="{{ URL::to('/page/1') }}"><img src="imgs/arrow-next.svg" alt=""></a>
         </div>
-        <div class="col-md-6">
-          <p class="pageNumber">Home</p>
+        <div class="pageBox" style="bottom: 20%; right: 45px;">
+          <audio id="myAudio">
+              <source src="{{ asset( 'audio/home.ogg' ) }}" type="audio/ogg">
+              <source src="{{ asset( 'audio/home.mp3' ) }}" type="audio/mpeg">
+              Your browser does not support the audio element.
+            </audio>
+          <button id="btn_audio" class='btn_audio'> Play </button>
+        </div>
+      
+ 
         </div>
       </footer>    
 </section><!--CLOSE MAIN WRAPPER-->

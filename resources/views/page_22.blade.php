@@ -10,58 +10,50 @@
         <!-- Sidebar -->
         <side-menu-component page-num="{{ $page }}"></side-menu-component>
         <!-- -->
-        <div id="content-wrapper" class="greenWrapper">
+        <div id="content-wrapper" class="boxBlue">
 
             <nav class="navbar static-top">
 
-                <h1 class="mainTitle">Procesos con las cuentas por pagar</h1>
+                <h1 class="mainTitle">Componentes de las cuentas por pagar</h1>
 
             </nav>
             <div class="container-fluid">
-                <div class="row circleBox">
+                <div class="row circleBox blueCuentas">
                     <div class="col-md-7 circleOptions">
-                        <img src="{{ asset('imgs/circle-shape.png') }}" alt="" style="width: 100%"/>
+                        <img src="{{ asset('imgs/circle-shape.png') }}" alt="" style="width: 100%; visibility: hidden"/>
 
                         <div class="circlesEachOption">
                             <a class="ventas buble" href="">
 
-                                <img src="{{ asset('imgs/icon-origen.svg') }}" alt="">
+                                <img src="{{ asset('imgs/icon-proveedores-23.svg') }}" alt="">
                             </a>
                             <a class="apply buble" href="">
-                                <img src="{{ asset('imgs/icon-procesos.svg') }}" alt="">
+                                <img src="{{ asset('imgs/icon-dividendos-23.svg') }}" alt="">
                             </a>
                             <a class="resolucion buble" href="">
-                                <img src="{{ asset('imgs/icon-procesamiento.svg') }}" alt="">
+                                <img src="{{ asset('imgs/icon-balance-23.svg') }}" alt="">
                             </a>
                             <a class="recaudo buble" href="">
-                                <img src="{{ asset('imgs/icon-recepcion.svg') }}" alt="">
-                                </a>
+                                <img src="{{ asset('imgs/icon-otrasCuentas-23.svg') }}" alt="">
+                            </a>
                             <a class="facturacion buble" href="">
-                                <img src="{{ asset('imgs/icon-orden.svg') }}" alt="">
+                                <img src="{{ asset('imgs/cuentas-por-pagar.svg') }}" alt="">
                             </a>
                             <a class="orden buble" href="">
-                                <img src="{{ asset('imgs/icon-proveedor-admin.svg') }}" alt="">
-                                </a>
-                            <a class="adminCredit buble" href="">
-                                <img src="{{ asset('imgs/icon-proveedor.svg') }}" alt="">
+                                <img src="{{ asset('imgs/icon-tax-23.svg') }}" alt="">
+                            </a>
+                            <a class="anticipo buble" href="">
+                                <img src="{{ asset('imgs/icon-gastos-23.svg') }}" alt="">
                             </a>
 
                         </div>
-                        <div class="mainInfo">
-                            <p>Al dar click en alguna
-                                de las secciones (Ventas,
-                                Administración del Crédito,
-                                Ordenamiento, etc)  debe aparecer
-                                el texto explicatvo aquí junto con la
-                                flecha correspondiente
-
-                                Cuando se dá click en el siguiente
-                                globo, el texto cambia</p>
+                        <div class="mainCuentas">
+                            <img src="{{ asset('imgs/icon-cuentas-cobrar.svg') }}" alt="">
                         </div>
 
                     </div>
                     <div class="col-md-5 mainBG">
-                        <img src="{{ asset('imgs/bg-22-page.png') }}" alt="" style="width: 100%">
+                        <img src="{{ asset('imgs/bg-23-main.png') }}" alt="" style="width: 100%">
                     </div>
                 </div>
             </div><!-- /.container-fluid -->
@@ -72,7 +64,15 @@
         <!-- /.content-wrapper -->
     </div>
     <!-- /#wrapper -->
-
+    <div class="playBox">
+        <audio id="myAudio">
+            <source src="{{ asset( 'audio/page_'.$page.'.ogg' ) }}" type="audio/ogg">
+            <source src="{{ asset( 'audio/page_'.$page.'.mp3' ) }}" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        <button id="btn_audio" class='btn_audio'> Play </button>
+    </div>
+    
     <div class="pageBox">
         <p><strong>{{ $page }}</strong></p>
     </div>

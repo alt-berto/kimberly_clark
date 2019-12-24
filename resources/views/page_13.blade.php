@@ -19,18 +19,32 @@
                 <div class="content3">
                     <div class="topLineColor"></div>
                     <div class="quizInfo">
-                        <p class="animated bounceInDown">
-                            2. ¿Para el calculo del DSO solo necesita el saldo final de cartera y el promedio de la venta de los ultimos 3 meses?                        
-                        </p>
+                        <p class="animated bounceInDown">3. De la siguiente lista, elija los que componen las cuentas por cobrar en KC:</p>
                         
                         <ul class="animated rubberBand">
                             <li>
                                 <input type="checkbox" name="verdadero" value="verdadero" id="id_true">
-                                <label for="id_true">Verdadero</label>
+                                <label for="id_true">Cartera intercompany o consolidadas</label>
                             </li>
                             <li>
                                 <input type="checkbox" name="verdadero" value="verdadero" id="id_true2">
-                                <label for="id_true2">Falso</label>
+                                <label for="id_true2">Inventario de producto terminado
+                                </label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="verdadero" value="verdadero" id="id_true3">
+                                <label for="id_true3">Impuestos por cobrar
+                                </label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="verdadero" value="verdadero" id="id_true4">
+                                <label for="id_true4">Impuestos por pagar
+                                </label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="verdadero" value="verdadero" id="id_true5">
+                                <label for="id_true5">Pago de servicios públicos y arriendos
+                                </label>
                             </li>
                         </ul>
                         <div class="boxWhite">
@@ -49,13 +63,14 @@
                                         </button>
                             
                                         <div class="modal-body">
-                                            ¡Muy bien! La Fórmula del DSO es:
-                                            <img src="{{ asset('imgs/total.svg') }}" alt=""></div>
+                                            ¡Excelente! Los pagos de servicios públicos, impuestos por pagar y el inventario de producto terminado no son componentes del DSO pero sí del CCC 
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                          
                           
                 </div><!-- /.container-fluid -->
             </div><!-- /.container-fluid -->        
@@ -63,7 +78,15 @@
         <!-- /.content-wrapper -->        
     </div>
     <!-- /#wrapper -->
-
+    <div class="playBox">
+        <audio id="myAudio">
+            <source src="{{ asset( 'audio/page_'.$page.'.ogg' ) }}" type="audio/ogg">
+            <source src="{{ asset( 'audio/page_'.$page.'.mp3' ) }}" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        <button id="btn_audio" class='btn_audio'> Play </button>
+    </div>
+    
     <div class="pageBox">
         <p><strong>{{ $page }}</strong></p>
     </div>

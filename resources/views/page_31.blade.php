@@ -10,17 +10,33 @@
             <!-- Sidebar -->
             <side-menu-component page-num="{{ $page }}"></side-menu-component>
             <!-- -->
-            <div id="content-wrapper" class="purple2BoxMain">
+            <div id="content-wrapper" class="purpleBoxMain">
                 <nav class="navbar static-top">
-                    <h1 class="mainTitle">Playbook de CCC
+                    <h1 class="mainTitle">¿Cómo desde tu
                     </h1>
+                    <h2>rol de influencias el CCC?</h2>
                 </nav>
-                <div class="container-fluid">
+                <div class="container-fluid row">
                    <div class="col-md-6 animated bounceInUp">
-                       <img src="{{ asset('imgs/cccplaybook12.png') }}" alt="">
-                   </div>
+                       <div class="col-md-6">
+                           <img src="{{ asset('imgs/icon-otc.svg') }}" alt="">
+                       </div>
+                       <div class="col-md-6">
+                           <img src="{{ asset('imgs/icon-ptp.svg') }}" alt="">
+                       </div>
 
-                    <div class="col-md-5">
+                   </div>
+                    <div class="col-md-6 animated bounceInDown">
+                        <div class="col-md-6">
+                            <img src="{{ asset('imgs/icon-atr.svg') }}" alt="">
+                        </div>
+                        <div class="col-md-6">
+                            <img src="{{ asset('imgs/icon-treasury.svg') }}" alt="">
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-6">
                     </div>
 
                 </div><!-- /.container-fluid -->
@@ -28,7 +44,15 @@
             <!-- /.content-wrapper -->
         </div>
         <!-- /#wrapper -->
-
+        <div class="playBox">
+            <audio id="myAudio">
+                <source src="{{ asset( 'audio/page_'.$page.'.ogg' ) }}" type="audio/ogg">
+                <source src="{{ asset( 'audio/page_'.$page.'.mp3' ) }}" type="audio/mpeg">
+                Your browser does not support the audio element.
+              </audio>
+            <button id="btn_audio" class='btn_audio'> Play </button>
+        </div>
+        
         <div class="pageBox">
             <p><strong>{{ $page }}</strong></p>
         </div>

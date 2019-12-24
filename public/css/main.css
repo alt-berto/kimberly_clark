@@ -1,0 +1,61 @@
+.btn_audio {
+    border: 0;
+    background: transparent;
+    box-sizing: border-box;
+    width: 0;
+    height: 50px;
+    color: #2b318b;
+    border-color: transparent transparent transparent #2b318b;
+    transition: 100ms all ease;
+    cursor: pointer;
+    border-style: solid;
+    border-width: 25px 0 25px 45px;
+  }
+  .btn_audio.paused {
+    border-style: double;
+    border-width: 0px 0 0px 45px;
+  }
+  .btn_audio:hover {
+    border-color: transparent transparent transparent #2b318b;
+  }
+  
+
+  #wrapper {
+    text-align: center;
+    animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}

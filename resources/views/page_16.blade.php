@@ -5,74 +5,79 @@
 <!-- Specify content -->
 @section('content')
 
-<section>
-    <div id="wrapper">
-        <!-- Sidebar -->
-        <side-menu-component page-num="{{ $page }}"></side-menu-component>
-        <!-- -->
-        <div id="content-wrapper">
-            <nav class="navbar static-top">    
-                <!--<h1 class="mainTitle">¿Por qué se presta atención a la liquidez?</h1>    
-                <img class="iconLogo" src="{{ asset('imgs/icon-logo.svg') }}" alt="">-->
-            </nav>
-            <div class="container-fluid contentBox blueContainer">
-                <div class="content3">
-                    <div class="topLineColor">
-                            <h1>Flowchart</h1>
-                            <h2>de la cadena
-                                de suministros</h2>
-                    </div>
-                    <div class="flowChart">
-                        <ul>
-                            <li class="animated fadeInLeft">
-                                <img src="{{ asset('imgs/proveedores-icon.svg') }}" alt="">
-                                <h6>Proveedores</h6>
-                            </li>
-                            <li class="animated fadeInDown">
-                                <img src="{{ asset('imgs/manufactura1-icon.svg') }}" alt="">
-                                <h6>Manufactura </h6>
-                            </li>
-                            <li class="animated flip">
-                                <img src="{{ asset('imgs/car-distribucion-icon.svg') }}" alt="">
-                                <h6>Distribución </h6>
-                            </li>
-                            <li class="animated fadeInUp">
-                                <img src="{{ asset('imgs/comercio-icon.svg') }}" alt="">
-                                <h6>Comercialización</h6>
-                            </li>
-                            <li class="animated fadeInRight">
-                                <img src="{{ asset('imgs/consumer-icon.svg') }}" alt="">
-                                <h6>Consumidor</h6>
-                            </li>
-                        </ul>
-                        
-                        <div class="whiteBox">
-                            <ul>
-                                <li>
-                                    <h5>Productos y servicios
-                                    </h5>
-                                </li>
-                                <li>
-                                    <h5>Efectivo</h5>
-                                </li>
-                                <li>
-                                    <h5>Información</h5>
-                                </li>
-                            </ul>
-                        </div>                        
-                    </div><!--close flow chart-->
-                         
-                    
-                </div><!-- /.container-fluid -->
-            </div><!-- /.container-fluid -->        
-        </div>
-        <!-- /.content-wrapper -->        
-    </div>
-    <!-- /#wrapper -->
+    <section>
+        <div id="wrapper">
+            <!-- Sidebar -->
+            <side-menu-component page-num="{{ $page }}"></side-menu-component>
+            <!-- -->
+            <div id="content-wrapper">
+                <nav class="navbar static-top">
+                    <h1 class="mainTitle">Los tipos de Inventarios</h1>
+                    <img class="iconLogo" src="{{ asset('imgs/icon-logo.svg') }}" alt="">
+                </nav>
+                <div class="container-fluid contentBox page5">
+                    <div class="content3 boxBlueLight row">
+                        <div class="topLineColor"></div>
+                       <div class="col-md-3">
+                            <h5>Materia Prima</h5>
+                           <a href=""><img class="primaBox  animated tada" src="{{ asset('imgs/materia-prima.png') }}" alt=""></a>
 
-    <div class="pageBox">
-        <p><strong>{{ $page }}</strong></p>
-    </div>
-</section><!--CLOSE MAIN WRAPPER-->
+                       </div>
+                        <div class="col-md-3">
+                            <h5>Productos
+                                en proceso</h5>
+                            <a href=""><img class="primaBox  animated tada" src="{{ asset('imgs/productos-en-proceso.png') }}" alt=""></a>
+
+                        </div>
+                        <div class="col-md-3">
+                            <h5>Producto
+                                terminado
+                            </h5>
+                            <a href=""> <img class="primaBox  animated tada" src="{{ asset('imgs/productos-terminado.png') }}" alt=""></a>
+
+                        </div>
+                        <div class="col-md-3">
+
+                            <h5>Desperdicios</h5>
+                            <a href=""><img class="primaBox  animated tada" src="{{ asset('imgs/desperdicios.png') }}" alt=""></a>
+                        </div>
+                    </div><!-- /.boxBlueLight -->
+                    <div class="lastContent row">
+                        <div class="col-md-3">
+                            <h5>Bobina de papel</h5>
+                        </div>
+                        <div class="col-md-3">
+                            <h5>Papel higiénico
+                                en proceso</h5>
+                        </div>
+                        <div class="col-md-3">
+                            <h5>Papel higiénico
+                                disponible para
+                                la venta
+                            </h5>
+                        </div>
+                        <div class="col-md-3">
+                            <h5>Fibra de papel
+                            </h5>
+                        </div>
+                    </div>
+                </div><!-- /.container-fluid -->
+            </div>
+            <!-- /.content-wrapper -->
+        </div>
+        <!-- /#wrapper -->
+        <div class="playBox">
+            <audio id="myAudio">
+                <source src="{{ asset( 'audio/page_'.$page.'.ogg' ) }}" type="audio/ogg">
+                <source src="{{ asset( 'audio/page_'.$page.'.mp3' ) }}" type="audio/mpeg">
+                Your browser does not support the audio element.
+              </audio>
+            <button id="btn_audio" class='btn_audio'> Play </button>
+        </div>
+        
+        <div class="pageBox">
+            <p><strong>{{ $page }}</strong></p>
+        </div>
+    </section><!--CLOSE MAIN WRAPPER-->
 
 @stop

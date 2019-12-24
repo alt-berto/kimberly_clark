@@ -19,34 +19,18 @@
                 <div class="content3">
                     <div class="topLineColor"></div>
                     <div class="quizInfo">
-                        <p class="animated bounceInDown">1. Seleccione cuáles son los tipos de inventario que temenos en KC: </p>
+                        <p class="animated bounceInDown">
+                            2. El objetivo principal del DIO es tener los inventarios en 0?
+                        </p>
                         
                         <ul class="animated rubberBand">
                             <li>
                                 <input type="checkbox" name="verdadero" value="verdadero" id="id_true">
-                                <label for="id_true">Inventario de producto terminado</label>
+                                <label for="id_true">Verdadero</label>
                             </li>
                             <li>
                                 <input type="checkbox" name="verdadero" value="verdadero" id="id_true2">
-                                <label for="id_true2">Inventario de productos en proceso
-
-                                </label>
-                            </li>
-                            <li>
-                                <input type="checkbox" name="verdadero" value="verdadero" id="id_true3">
-                                <label for="id_true3">Inventario de repuestos
-                                </label>
-                            </li>
-                            <li>
-                                <input type="checkbox" name="verdadero" value="verdadero" id="id_true4">
-                                <label for="id_true4">Inventario materia prima
-
-                                </label>
-                            </li>
-                            <li>
-                                <input type="checkbox" name="verdadero" value="verdadero" id="id_true5">
-                                <label for="id_true5">Inventario residuos
-                                </label>
+                                <label for="id_true2">Falso</label>
                             </li>
                         </ul>
                         <div class="boxWhite">
@@ -65,13 +49,15 @@
                                         </button>
                             
                                         <div class="modal-body">
-                                            ¡Excelente! Todos estos inventarios componen el DIO </div>
+                                            Recuerda que la intención del DIO es tener el nivel adecuado de inventarios según la línea de negocio. Esto no necesariamente es tener 0 niveles de inventarios
+
+
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                          
                           
                 </div><!-- /.container-fluid -->
             </div><!-- /.container-fluid -->        
@@ -79,7 +65,15 @@
         <!-- /.content-wrapper -->        
     </div>
     <!-- /#wrapper -->
-
+    <div class="playBox">
+        <audio id="myAudio">
+            <source src="{{ asset( 'audio/page_'.$page.'.ogg' ) }}" type="audio/ogg">
+            <source src="{{ asset( 'audio/page_'.$page.'.mp3' ) }}" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        <button id="btn_audio" class='btn_audio'> Play </button>
+    </div>
+    
     <div class="pageBox">
         <p><strong>{{ $page }}</strong></p>
     </div>

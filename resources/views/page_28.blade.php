@@ -19,33 +19,19 @@
                 <div class="content3">
                     <div class="topLineColor"></div>
                     <div class="quizInfo">
-                        <p class="animated bounceInDown">2. Selecciona las iniciativas del DPO </p>
+                        <p class="animated bounceInDown">
+                            3. El DPO se calcula usando el saldo por pagar a los provedores y la venta neta de los ultimos 3 meses?
+                        </p>
                         
                         <ul class="animated rubberBand">
                             <li>
                                 <input type="checkbox" name="verdadero" value="verdadero" id="id_true">
-                                <label for="id_true">Factoring con proveedores
-                                </label>
+                                <label for="id_true">Verdadero</label>
                             </li>
                             <li>
                                 <input type="checkbox" name="verdadero" value="verdadero" id="id_true2">
-                                <label for="id_true2">Factoring con clientes
-
-                                </label>
+                                <label for="id_true2">Falso</label>
                             </li>
-                            <li>
-                                <input type="checkbox" name="verdadero" value="verdadero" id="id_true3">
-                                <label for="id_true3">Pagos a traves de tarjetas de credito
-                                </label>
-                            </li>
-                            <li>
-                                <input type="checkbox" name="verdadero" value="verdadero" id="id_true4">
-                                <label for="id_true4">Negociar términos de plazo mas largo con los proveedores
-
-
-                                </label>
-                            </li>
-
                         </ul>
                         <div class="boxWhite">
                             <!-- Button trigger modal -->
@@ -63,13 +49,13 @@
                                         </button>
                             
                                         <div class="modal-body">
-                                            ¡Excelente! Todos estos inventarios componen el DIO </div>
+                                            ¡Muy bien! Recuerda que en el caso del DIO y del DPO se usa el Costo de Ventas así:
+                                            <img src="{{ asset('imgs/total.svg') }}" alt=""></div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                          
                           
                 </div><!-- /.container-fluid -->
             </div><!-- /.container-fluid -->        
@@ -77,7 +63,15 @@
         <!-- /.content-wrapper -->        
     </div>
     <!-- /#wrapper -->
-
+    <div class="playBox">
+        <audio id="myAudio">
+            <source src="{{ asset( 'audio/page_'.$page.'.ogg' ) }}" type="audio/ogg">
+            <source src="{{ asset( 'audio/page_'.$page.'.mp3' ) }}" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        <button id="btn_audio" class='btn_audio'> Play </button>
+    </div>
+    
     <div class="pageBox">
         <p><strong>{{ $page }}</strong></p>
     </div>

@@ -75,6 +75,7 @@ class Controller extends BaseController
         $this->data['css']['internals'][] = 'all.min.css';
         $this->data['css']['internals'][] = 'dataTables.bootstrap4.css';
         $this->data['css']['internals'][] = 'sb-admin.css';
+        $this->data['css']['internals'][] = 'main.css';
         $this->data['css']['internals'][] = 'app.css';
 
         // Load Internal Icons Files.
@@ -98,6 +99,7 @@ class Controller extends BaseController
         $this->data['js']['internals'][] = 'demo/datatables-demo.js';
         $this->data['js']['internals'][] = 'demo/chart-area-demo.js';
         $this->data['js']['internals'][] = 'app.js';
+        $this->data['js']['internals'][] = 'main.js';
         //
         // Load View
         return view( 'index' )->with( $this->data );
@@ -119,7 +121,8 @@ class Controller extends BaseController
         $this->data['css']['internals'][] = 'animate.min.css';
         $this->data['css']['internals'][] = 'dataTables.bootstrap4.css';
         $this->data['css']['internals'][] = 'sb-admin.css';
-        //$this->data['css']['internals'][] = 'app.css';
+        $this->data['css']['internals'][] = 'main.css';
+        $this->data['css']['internals'][] = 'app.css';
 
         // Load Internal Icons Files.
         $this->data['icons']['internals'][] = ['rel' => 'icon', 'size' => '', 'url' => 'logo-128x128-1.png'];
@@ -142,6 +145,7 @@ class Controller extends BaseController
         $this->data['js']['internals'][] = 'demo/datatables-demo.js';
         $this->data['js']['internals'][] = 'demo/chart-area-demo.js';
         $this->data['js']['internals'][] = 'app.js';
+        $this->data['js']['internals'][] = 'main.js';
         //
         $this->data['page'] = intval( $page );        
 

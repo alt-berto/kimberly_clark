@@ -5,71 +5,78 @@
 <!-- Specify content -->
 @section('content')
 
-    <section>
-        <div id="wrapper">
-            <!-- Sidebar -->
-            <side-menu-component page-num="{{ $page }}"></side-menu-component>
-            <!-- -->
-            <div id="content-wrapper">
-                <nav class="navbar static-top">
-                    <h1 class="mainTitle">Los tipos de Inventarios</h1>
-                    <img class="iconLogo" src="{{ asset('imgs/icon-logo.svg') }}" alt="">
-                </nav>
-                <div class="container-fluid contentBox page5">
-                    <div class="content3 boxBlueLight row">
-                        <div class="topLineColor"></div>
-                       <div class="col-md-3">
-                            <h5>Materia Prima</h5>
-                           <a href=""><img class="primaBox  animated tada" src="{{ asset('imgs/materia-prima.png') }}" alt=""></a>
-
-                       </div>
-                        <div class="col-md-3">
-                            <h5>Productos
-                                en proceso</h5>
-                            <a href=""><img class="primaBox  animated tada" src="{{ asset('imgs/productos-en-proceso.png') }}" alt=""></a>
-
-                        </div>
-                        <div class="col-md-3">
-                            <h5>Producto
-                                terminado
-                            </h5>
-                            <a href=""> <img class="primaBox  animated tada" src="{{ asset('imgs/productos-terminado.png') }}" alt=""></a>
-
-                        </div>
-                        <div class="col-md-3">
-
-                            <h5>Desperdicios</h5>
-                            <a href=""><img class="primaBox  animated tada" src="{{ asset('imgs/desperdicios.png') }}" alt=""></a>
-                        </div>
-                    </div><!-- /.boxBlueLight -->
-                    <div class="lastContent row">
-                        <div class="col-md-3">
-                            <h5>Bobina de papel</h5>
-                        </div>
-                        <div class="col-md-3">
-                            <h5>Papel higiénico
-                                en proceso</h5>
-                        </div>
-                        <div class="col-md-3">
-                            <h5>Papel higiénico
-                                disponible para
-                                la venta
-                            </h5>
-                        </div>
-                        <div class="col-md-3">
-                            <h5>Fibra de papel
-                            </h5>
-                        </div>
+<section>
+    <div id="wrapper">
+        <!-- Sidebar -->
+        <side-menu-component page-num="{{ $page }}"></side-menu-component>
+        <!-- -->
+        <div id="content-wrapper">
+            <nav class="navbar static-top">    
+                <h1 class="mainTitle">Iniciativas DIO</h1>
+            </nav>
+            <div class="container-fluid colorBoxes redBoxes">
+                <div class="boxes row">
+                    <div class="col-md-4 boxMain">
+                        <img src="{{ asset('imgs/skus.svg') }}" alt="">
+                        <p>Racionalización
+                            de *SKU (stock
+                            keeping unit)
+                        </p>
                     </div>
-                </div><!-- /.container-fluid -->
-            </div>
-            <!-- /.content-wrapper -->
-        </div>
-        <!-- /#wrapper -->
+                    <div class="col-md-4 animated pulse boxMain red1">
+                        <img src="{{ asset('imgs/icon-automat.svg') }}" alt="">
+                        <p>Optimización de
+                            la planeación
 
-        <div class="pageBox">
-            <p><strong>{{ $page }}</strong></p>
+                        </p>
+                    </div>
+
+                    <div class="col-md-4 boxMain red2">
+                        <img src="{{ asset('imgs/icon-computers.svg') }}" alt="">
+                        <p>Manejo inteligente
+                            de inventarios
+
+                        </p>
+                    </div>
+                </div>
+                <div class="boxes row">
+                    <div class="col-md-4 boxMain red3">
+                        <img src="{{ asset('imgs/icon-ordenamiento.svg') }}" alt="">
+                        <p>Eficiencia en
+                            el ordenamiento</p>
+                    </div>
+                    <div class="col-md-4 boxMain red2">
+                        <img src="{{ asset('imgs/icon-ventas.svg') }}" alt="">
+                        <p>Venta de desperdicios
+                            y obsoletos
+                        </p>
+        
+                    </div>
+                    <div class="col-md-4 boxMain">
+                        <img src="{{ asset('imgs/icon-transportes.svg') }}" alt="">
+                        <p>Mejorar transportes
+                        </p>
+                    </div>
+        
+                </div>
+            </div><!-- /.container-fluid -->
+                
         </div>
-    </section><!--CLOSE MAIN WRAPPER-->
+        <!-- /.content-wrapper -->        
+    </div>
+    <!-- /#wrapper -->
+    <div class="playBox">
+        <audio id="myAudio">
+            <source src="{{ asset( 'audio/page_'.$page.'.ogg' ) }}" type="audio/ogg">
+            <source src="{{ asset( 'audio/page_'.$page.'.mp3' ) }}" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        <button id="btn_audio" class='btn_audio'> Play </button>
+    </div>
+    
+    <div class="pageBox">
+        <p><strong>{{ $page }}</strong></p>
+    </div>
+</section><!--CLOSE MAIN WRAPPER-->
 
 @stop

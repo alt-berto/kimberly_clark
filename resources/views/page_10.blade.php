@@ -10,29 +10,36 @@
         <!-- Sidebar -->
         <side-menu-component page-num="{{ $page }}"></side-menu-component>
         <!-- -->
-        <div id="content-wrapper" class="greenBoxMain">
+        <div id="content-wrapper">
             <nav class="navbar static-top">    
-                <h1 class="mainTitle">Vehículos Financieros</h1>    
-                <img class="iconLogo" src="{{ asset('imgs/icon-vehiculos.svg') }}" alt="">
+                <h1 class="mainTitle">Descuento pronto pago</h1>    
+                <img class="iconLogo" src="{{ asset('imgs/icon-logo.svg') }}" alt="">
             </nav>
-            <div class="container-fluid">
-                <div class="row bgGreen">
+            <div class="container-fluid contentBox">
+                <div class="content3 contentPagoAntes row">
+                    <div class="topLineColor"></div>
                     <div class="col-md-8">
                         <br>
-                        <br>
-                        <img class="animated slideInLeft" src="{{ asset('imgs/vehiculos-financieros.png') }}" alt="">
+                        <img class="animated bounceInLeft guy" src="{{ asset('imgs/pronto-pago-paso1.png') }}" alt="">
                     </div>
-                    <div class="col-md-4">
-            
+                    <div class="col-md-4 cicloSteps ciclo">
+                
                     </div>
-                </div>
-                  
+                </div><!-- /.container-fluid -->
             </div><!-- /.container-fluid -->        
         </div>
         <!-- /.content-wrapper -->        
     </div>
     <!-- /#wrapper -->
-
+    <div class="playBox">
+        <audio id="myAudio">
+            <source src="{{ asset( 'audio/page_'.$page.'.ogg' ) }}" type="audio/ogg">
+            <source src="{{ asset( 'audio/page_'.$page.'.mp3' ) }}" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        <button id="btn_audio" class='btn_audio'> Play </button>
+    </div>
+    
     <div class="pageBox">
         <p><strong>{{ $page }}</strong></p>
     </div>

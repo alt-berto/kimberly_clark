@@ -12,60 +12,82 @@
         <!-- -->
         <div id="content-wrapper">
             <nav class="navbar static-top">    
-                <h1 class="mainTitle">Iniciativas DIO</h1>
+                <h1 class="mainTitle">Quiz DSO</h1>    
+                <!--<img class="iconLogo" src="{{ asset('imgs/icon-logo.svg') }}" alt="">-->
             </nav>
-            <div class="container-fluid colorBoxes redBoxes">
-                <div class="boxes row">
-                    <div class="col-md-4 boxMain">
-                        <img src="{{ asset('imgs/skus.svg') }}" alt="">
-                        <p>Racionalización
-                            de *SKU (stock
-                            keeping unit)
-                        </p>
-                    </div>
-                    <div class="col-md-4 animated pulse boxMain red1">
-                        <img src="{{ asset('imgs/icon-automat.svg') }}" alt="">
-                        <p>Optimización de
-                            la planeación
+            <div class="container-fluid contentBox quizBox">
+                <div class="content3">
+                    <div class="topLineColor"></div>
+                    <div class="quizInfo">
+                        <p class="animated bounceInDown">1. Seleccione cuáles son los tipos de inventario que temenos en KC: </p>
+                        
+                        <ul class="animated rubberBand">
+                            <li>
+                                <input type="checkbox" name="verdadero" value="verdadero" id="id_true">
+                                <label for="id_true">Inventario de producto terminado</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="verdadero" value="verdadero" id="id_true2">
+                                <label for="id_true2">Inventario de productos en proceso
 
-                        </p>
-                    </div>
+                                </label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="verdadero" value="verdadero" id="id_true3">
+                                <label for="id_true3">Inventario de repuestos
+                                </label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="verdadero" value="verdadero" id="id_true4">
+                                <label for="id_true4">Inventario materia prima
 
-                    <div class="col-md-4 boxMain red2">
-                        <img src="{{ asset('imgs/icon-computers.svg') }}" alt="">
-                        <p>Manejo inteligente
-                            de inventarios
-
-                        </p>
+                                </label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="verdadero" value="verdadero" id="id_true5">
+                                <label for="id_true5">Inventario residuos
+                                </label>
+                            </li>
+                        </ul>
+                        <div class="boxWhite">
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                                deplegar respuesta correcta
+                            </button>
+                        
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                            
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                            
+                                        <div class="modal-body">
+                                            ¡Excelente! Todos estos inventarios componen el DIO </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="boxes row">
-                    <div class="col-md-4 boxMain red3">
-                        <img src="{{ asset('imgs/icon-ordenamiento.svg') }}" alt="">
-                        <p>Eficiencia en
-                            el ordenamiento</p>
-                    </div>
-                    <div class="col-md-4 boxMain red2">
-                        <img src="{{ asset('imgs/icon-ventas.svg') }}" alt="">
-                        <p>Venta de desperdicios
-                            y obsoletos
-                        </p>
-        
-                    </div>
-                    <div class="col-md-4 boxMain">
-                        <img src="{{ asset('imgs/icon-transportes.svg') }}" alt="">
-                        <p>Mejorar transportes
-                        </p>
-                    </div>
-        
-                </div>
-            </div><!-- /.container-fluid -->
-                
+                          
+                          
+                </div><!-- /.container-fluid -->
+            </div><!-- /.container-fluid -->        
         </div>
         <!-- /.content-wrapper -->        
     </div>
     <!-- /#wrapper -->
-
+    <div class="playBox">
+        <audio id="myAudio">
+            <source src="{{ asset( 'audio/page_'.$page.'.ogg' ) }}" type="audio/ogg">
+            <source src="{{ asset( 'audio/page_'.$page.'.mp3' ) }}" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        <button id="btn_audio" class='btn_audio'> Play </button>
+    </div>
+    
     <div class="pageBox">
         <p><strong>{{ $page }}</strong></p>
     </div>

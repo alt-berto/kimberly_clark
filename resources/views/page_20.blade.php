@@ -20,8 +20,7 @@
                     <div class="topLineColor"></div>
                     <div class="quizInfo">
                         <p class="animated bounceInDown">
-                            2. El objetivo principal del DIO es tener los inventarios en 0?
-                        </p>
+                            3. Una de las claves del DIO es mantener alineada la estrategia commercial con la estrategia logística de marketing?</p>
                         
                         <ul class="animated rubberBand">
                             <li>
@@ -49,9 +48,7 @@
                                         </button>
                             
                                         <div class="modal-body">
-                                            Recuerda que la intención del DIO es tener el nivel adecuado de inventarios según la línea de negocio. Esto no necesariamente es tener 0 niveles de inventarios
-
-
+                                            ¡Así es! Una estrategia comercial alineada con la de marketing son clave para tener niveles saludables de inventarios
                                         </div>
                                     </div>
                                 </div>
@@ -65,7 +62,15 @@
         <!-- /.content-wrapper -->        
     </div>
     <!-- /#wrapper -->
-
+    <div class="playBox">
+        <audio id="myAudio">
+            <source src="{{ asset( 'audio/page_'.$page.'.ogg' ) }}" type="audio/ogg">
+            <source src="{{ asset( 'audio/page_'.$page.'.mp3' ) }}" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        <button id="btn_audio" class='btn_audio'> Play </button>
+    </div>
+    
     <div class="pageBox">
         <p><strong>{{ $page }}</strong></p>
     </div>

@@ -7,64 +7,76 @@
 
 <section>
     <div id="wrapper">
-        <!-- Sidebar -->
-        <side-menu-component page-num="{{ $page }}"></side-menu-component>
-        <!-- -->
-        <div id="content-wrapper" class="boxBlue">
-
-            <nav class="navbar static-top">
-
-                <h1 class="mainTitle">Procesos de cuentas por pagar</h1>
-
+       <!-- Sidebar -->
+       <side-menu-component page-num="{{ $page }}"></side-menu-component>
+       <!-- -->
+        <div id="content-wrapper">
+            <nav class="navbar static-top">    
+                <h1 class="mainTitle">Iniciativas de DSO</h1>    
+                <!--<img class="iconLogo" src="{{ asset('imgs/icon-logo.svg') }}" alt="">-->
             </nav>
-            <div class="container-fluid">
-                <div class="row circleBox">
-                    <div class="col-md-7 circleOptions">
-                        <img src="{{ asset('imgs/circle-shape.png') }}" alt="" style="width: 100%; visibility: hidden"/>
-
-                        <div class="circlesEachOption">
-                            <a class="ventas buble" href="">
-
-                                <img src="{{ asset('imgs/cartera-icon.svg') }}" alt="">
-                            </a>
-                            <a class="apply buble" href="">
-                                <img src="{{ asset('imgs/dividendos-icon.svg') }}" alt="">
-                            </a>
-                            <a class="resolucion buble" href="">
-                                <img src="{{ asset('imgs/intercompany-cartera-icon.svg') }}" alt="">
-                            </a>
-                            <a class="recaudo buble" href="">
-                                <img src="{{ asset('imgs/proviciones-icon.svg') }}" alt="">
-                            </a>
-                            <a class="facturacion buble" href="">
-                                <img src="{{ asset('imgs/cartera-empleados-icon.svg') }}" alt="">
-                            </a>
-                            <a class="orden buble" href="">
-                                <img src="{{ asset('imgs/impuestos-icon.svg') }}" alt="">
-                            </a>
-                            <a class="anticipo buble" href="">
-                                <img src="{{ asset('imgs/anticipos-icon.svg') }}" alt="">
-                            </a>
-
-                        </div>
-                        <div class="mainCuentas">
-                            <img src="{{ asset('imgs/icon-cuentas-cobrar.svg') }}" alt="">
-                        </div>
-
+            <div class="container-fluid colorBoxes">
+                <div class="boxes row">
+                    <div class="col-md-3 boxMain blueBox1">
+                        <img src="{{ asset('imgs/search-icon.svg') }}" alt="">
+                        <p>Tracking y
+                        seguimiento
+            
+                        </p>
                     </div>
-                    <div class="col-md-5 mainBG">
-                        <img src="{{ asset('imgs/BG-PAGE-7.png') }}" alt="" style="width: 100%">
+                    <div class="col-md-3 boxMain blueBox2">
+                        <img src="{{ asset('imgs/politicas-icon.svg') }}" alt="">
+                        <p>Políticas y
+                        procedimientos
+                        robustos
+            
+                        </p>
+                    </div>
+                    <div class="col-md-3 boxMain blueBox3">
+                        <img src="{{ asset('imgs/playbook.svg') }}" alt="">
+                    </div>
+                    <div class="col-md-3 boxMain blueBox1">
+                        <img src="{{ asset('imgs/profesional-icon.svg') }}" alt="">
+                        <p>Profesionalizando
+                        la operación
+            
+                        </p>
+                    </div>        
+                </div>
+                <div class="boxes row">
+                    <div class="col-md-4 boxMain blueBox5">
+                        <img src="{{ asset('imgs/vehiculos-financieros-icon.svg') }}" alt="">
+                        <p>Vehículos
+                            financieros
+                        </p>
+                    </div>
+                    <div class="col-md-4 boxMain blueBox6">
+                        <img src="{{ asset('imgs/investigacion-icon.svg') }}" alt="">
+                        <p>Investigación y benchmark del mercado
+                        </p>
+        
+                    </div>
+                    <div class="col-md-4 boxMain blueBox5">
+                        <img src="{{ asset('imgs/trofeo-icon.svg') }}" alt="">
+                        <p>Objetivos y campañas de reconocimiento comunes
+            
+                        </p>
                     </div>
                 </div>
-            </div><!-- /.container-fluid -->
-
-
-
+            </div><!-- /.container-fluid -->        
         </div>
-        <!-- /.content-wrapper -->
+        <!-- /.content-wrapper -->        
     </div>
     <!-- /#wrapper -->
-
+    <div class="playBox">
+        <audio id="myAudio">
+            <source src="{{ asset( 'audio/page_'.$page.'.ogg' ) }}" type="audio/ogg">
+            <source src="{{ asset( 'audio/page_'.$page.'.mp3' ) }}" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        <button id="btn_audio" class='btn_audio'> Play </button>
+    </div>
+    
     <div class="pageBox">
         <p><strong>{{ $page }}</strong></p>
     </div>

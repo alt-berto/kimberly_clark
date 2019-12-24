@@ -62,6 +62,7 @@
             <a :href="beforePage" class="back"><img :src="base_url + 'imgs/arrow-back.svg'" :alt="beforePage"></a>
             <a :href="nexPage" class="next"><img :src="base_url + 'imgs/arrow-next.svg'" :alt="nexPage"></a>
         </li>
+
     </ul>
     <!-- -->
 </template>
@@ -91,7 +92,7 @@
         }
     },
     methods: {
-
+        
     },    
 
   }
