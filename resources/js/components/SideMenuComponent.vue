@@ -88,7 +88,12 @@
             let next = parseInt( this.pageNum ) + 1;
             //
             this.beforePage = this.base_url + 'page/' + before;
-            this.nexPage = this.base_url + 'page/' + next;
+            if ( this.pageNum == 40 ) {
+                this.nexPage = this.base_url;
+            } else {
+                this.nexPage = this.base_url + 'page/' + next;
+            }
+            
         }
     },
     methods: {

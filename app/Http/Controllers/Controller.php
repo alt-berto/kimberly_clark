@@ -146,6 +146,7 @@ class Controller extends BaseController
         $this->data['js']['internals'][] = 'demo/chart-area-demo.js';
         $this->data['js']['internals'][] = 'app.js';
         $this->data['js']['internals'][] = 'main.js';
+        $this->data['js']['internals'][] = 'page/page_'.$page.'.js';
         //
         $this->data['page'] = intval( $page );        
 

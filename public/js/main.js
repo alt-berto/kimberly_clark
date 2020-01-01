@@ -7,8 +7,7 @@ $( document ).ready( function(  ) {
         //
         btn.click( function(  ) {            
           btn.toggleClass( "paused" );
-            let className = btn.attr( 'class' );
-            console.log( 'clase: ' + className );
+            let className = btn.attr( 'class' );         
             if ( className.includes( 'paused' ) ) {
                 audio.play(  );
             } else {

@@ -1929,7 +1929,12 @@ __webpack_require__.r(__webpack_exports__);
 
 
       this.beforePage = this.base_url + 'page/' + before;
-      this.nexPage = this.base_url + 'page/' + _next;
+
+      if (this.pageNum == 40) {
+        this.nexPage = this.base_url;
+      } else {
+        this.nexPage = this.base_url + 'page/' + _next;
+      }
     }
   },
   methods: {}
