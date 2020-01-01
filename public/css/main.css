@@ -1,3 +1,6 @@
+.buble {
+    z-index: 1000;
+}
 .btn_audio {
     border: 0;
     background: transparent;

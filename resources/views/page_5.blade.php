@@ -33,48 +33,48 @@
                             </a>
                             <a id="apply" class="apply buble" href="#">
                                 <audio id="my_apply">
-                                    <source src="{{ asset( 'audio/page_'.$page.'_2.ogg' ) }}" type="audio/ogg">
-                                    <source src="{{ asset( 'audio/page_'.$page.'_2.mp3' ) }}" type="audio/mpeg">
+                                    <source src="{{ asset( 'audio/page_'.$page.'_7.ogg' ) }}" type="audio/ogg">
+                                    <source src="{{ asset( 'audio/page_'.$page.'_7.mp3' ) }}" type="audio/mpeg">
                                     Your browser does not support the audio element.
                                 </audio>
                                 <img src="{{ asset('imgs/aplicacion-de-pagos-icon.svg') }}" alt="">
                             </a>
                             <a id="resolucion" class="resolucion buble" href="#">
                                 <audio id="my_resolucion">
-                                    <source src="{{ asset( 'audio/page_'.$page.'_3.ogg' ) }}" type="audio/ogg">
-                                    <source src="{{ asset( 'audio/page_'.$page.'_3.mp3' ) }}" type="audio/mpeg">
+                                    <source src="{{ asset( 'audio/page_'.$page.'_6.ogg' ) }}" type="audio/ogg">
+                                    <source src="{{ asset( 'audio/page_'.$page.'_6.mp3' ) }}" type="audio/mpeg">
                                     Your browser does not support the audio element.
                                 </audio>
                                 <img src="{{ asset('imgs/resolucion-icon.svg') }}" alt="">
                             </a>
                             <a id="recaudo" class="recaudo buble" href="#">
                                 <audio id="my_recaudo">
-                                    <source src="{{ asset( 'audio/page_'.$page.'_4.ogg' ) }}" type="audio/ogg">
-                                    <source src="{{ asset( 'audio/page_'.$page.'_4.mp3' ) }}" type="audio/mpeg">
+                                    <source src="{{ asset( 'audio/page_'.$page.'_5.ogg' ) }}" type="audio/ogg">
+                                    <source src="{{ asset( 'audio/page_'.$page.'_5.mp3' ) }}" type="audio/mpeg">
                                     Your browser does not support the audio element.
                                 </audio>
                                 <img src="{{ asset('imgs/recaudacion-icon.svg') }}" alt="">
                                 </a>
                             <a id="facturacion" class="facturacion buble" href="#">
                                 <audio id="my_facturacion">
-                                    <source src="{{ asset( 'audio/page_'.$page.'_5.ogg' ) }}" type="audio/ogg">
-                                    <source src="{{ asset( 'audio/page_'.$page.'_5.mp3' ) }}" type="audio/mpeg">
+                                    <source src="{{ asset( 'audio/page_'.$page.'_4.ogg' ) }}" type="audio/ogg">
+                                    <source src="{{ asset( 'audio/page_'.$page.'_4.mp3' ) }}" type="audio/mpeg">
                                     Your browser does not support the audio element.
                                 </audio>
                                 <img src="{{ asset('imgs/facturacion-icon.svg') }}" alt="">
                             </a>
                             <a id="orden" class="orden buble" href="#">
                                 <audio id="my_orden">
-                                    <source src="{{ asset( 'audio/page_'.$page.'_6.ogg' ) }}" type="audio/ogg">
-                                    <source src="{{ asset( 'audio/page_'.$page.'_6.mp3' ) }}" type="audio/mpeg">
+                                    <source src="{{ asset( 'audio/page_'.$page.'_3.ogg' ) }}" type="audio/ogg">
+                                    <source src="{{ asset( 'audio/page_'.$page.'_3.mp3' ) }}" type="audio/mpeg">
                                     Your browser does not support the audio element.
                                 </audio>
                                 <img src="{{ asset('imgs/ordenamiento-icon.svg') }}" alt="">
                                 </a>
                             <a id="adminCredit" class="adminCredit buble" href="#">
                                 <audio id="my_adminCredit">
-                                    <source src="{{ asset( 'audio/page_'.$page.'_7.ogg' ) }}" type="audio/ogg">
-                                    <source src="{{ asset( 'audio/page_'.$page.'_7.mp3' ) }}" type="audio/mpeg">
+                                    <source src="{{ asset( 'audio/page_'.$page.'_2.ogg' ) }}" type="audio/ogg">
+                                    <source src="{{ asset( 'audio/page_'.$page.'_2.mp3' ) }}" type="audio/mpeg">
                                     Your browser does not support the audio element.
                                 </audio>
                                 <img src="{{ asset('imgs/admin-credit.svg') }}" alt="">
