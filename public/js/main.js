@@ -7,7 +7,14 @@ $( document ).ready( function(  ) {
         //
         btn.click( function(  ) {            
           btn.toggleClass( "paused" );
-            audio.play(  );
+            let className = btn.attr( 'class' );
+            console.log( 'clase: ' + className );
+            if ( className.includes( 'paused' ) ) {
+                audio.play(  );
+            } else {
+                audio.pause(  );
+            }
+            
             return false;
         } );
     } );
