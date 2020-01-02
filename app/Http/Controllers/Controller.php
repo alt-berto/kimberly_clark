@@ -137,11 +137,11 @@ class Controller extends BaseController
         // Load Internal JS Files.
         $this->data['js']['internals'][] = 'jquery.min.js';
         $this->data['js']['internals'][] = 'bootstrap.bundle.min.js';
-        $this->data['js']['internals'][] = 'jquery.easing.min.js';    
-        $this->data['js']['internals'][] = 'Chart.min.js';
+        $this->data['js']['internals'][] = 'jquery.easing.min.js';            
         $this->data['js']['internals'][] = 'jquery.dataTables.js';
         $this->data['js']['internals'][] = 'dataTables.bootstrap4.js';
         $this->data['js']['internals'][] = 'sb-admin.min.js';
+        $this->data['js']['internals'][] = 'Chart.min.js';
         $this->data['js']['internals'][] = 'demo/datatables-demo.js';
         $this->data['js']['internals'][] = 'demo/chart-area-demo.js';
         $this->data['js']['internals'][] = 'app.js';

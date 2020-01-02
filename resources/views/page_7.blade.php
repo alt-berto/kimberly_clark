@@ -17,50 +17,85 @@
             </nav>
             <div class="container-fluid colorBoxes">
                 <div class="boxes row">
-                    <div class="col-md-3 boxMain blueBox1">
+                    <div id="track" class="col-md-3 boxMain blueBox1">
                         <img src="{{ asset('imgs/search-icon.svg') }}" alt="">
                         <p>Tracking y
                         seguimiento
             
                         </p>
+                        <audio id="my_track">
+                            <source src="{{ asset( 'audio/page_'.$page.'_1.ogg' ) }}" type="audio/ogg">
+                            <source src="{{ asset( 'audio/page_'.$page.'_1.mp3' ) }}" type="audio/mpeg">
+                            Your browser does not support the audio element.
+                        </audio>
                     </div>
-                    <div class="col-md-3 boxMain blueBox2">
+                    <div id="politica" class="col-md-3 boxMain blueBox2">
                         <img src="{{ asset('imgs/politicas-icon.svg') }}" alt="">
                         <p>Políticas y
                         procedimientos
                         robustos
             
                         </p>
+                        <audio id="my_politica">
+                            <source src="{{ asset( 'audio/page_'.$page.'_2.ogg' ) }}" type="audio/ogg">
+                            <source src="{{ asset( 'audio/page_'.$page.'_2.mp3' ) }}" type="audio/mpeg">
+                            Your browser does not support the audio element.
+                        </audio>
                     </div>
-                    <div class="col-md-3 boxMain blueBox3">
+                    <div id="playbook" class="col-md-3 boxMain blueBox3">
                         <img src="{{ asset('imgs/playbook.svg') }}" alt="">
+                        <audio id="my_playbook">
+                            <source src="{{ asset( 'audio/page_'.$page.'_3.ogg' ) }}" type="audio/ogg">
+                            <source src="{{ asset( 'audio/page_'.$page.'_3.mp3' ) }}" type="audio/mpeg">
+                            Your browser does not support the audio element.
+                        </audio>
                     </div>
-                    <div class="col-md-3 boxMain blueBox1">
+                    <div id="profesionalizando" class="col-md-3 boxMain blueBox1">
                         <img src="{{ asset('imgs/profesional-icon.svg') }}" alt="">
                         <p>Profesionalizando
                         la operación
             
                         </p>
+                        <audio id="my_profesionalizando">
+                            <source src="{{ asset( 'audio/page_'.$page.'_4.ogg' ) }}" type="audio/ogg">
+                            <source src="{{ asset( 'audio/page_'.$page.'_4.mp3' ) }}" type="audio/mpeg">
+                            Your browser does not support the audio element.
+                        </audio>
                     </div>        
                 </div>
                 <div class="boxes row">
-                    <div class="col-md-4 boxMain blueBox5">
+                    <div id="vehiculos" class="col-md-4 boxMain blueBox5">
                         <img src="{{ asset('imgs/vehiculos-financieros-icon.svg') }}" alt="">
                         <p>Vehículos
                             financieros
                         </p>
+                        <audio id="my_vehiculos">
+                            <source src="{{ asset( 'audio/page_'.$page.'_5.ogg' ) }}" type="audio/ogg">
+                            <source src="{{ asset( 'audio/page_'.$page.'_5.mp3' ) }}" type="audio/mpeg">
+                            Your browser does not support the audio element.
+                        </audio>
                     </div>
-                    <div class="col-md-4 boxMain blueBox6">
+                    <div id="investigacion" class="col-md-4 boxMain blueBox6">
                         <img src="{{ asset('imgs/investigacion-icon.svg') }}" alt="">
                         <p>Investigación y benchmark del mercado
                         </p>
+                        <audio id="my_investigacion">
+                            <source src="{{ asset( 'audio/page_'.$page.'_6.ogg' ) }}" type="audio/ogg">
+                            <source src="{{ asset( 'audio/page_'.$page.'_6.mp3' ) }}" type="audio/mpeg">
+                            Your browser does not support the audio element.
+                        </audio>
         
                     </div>
-                    <div class="col-md-4 boxMain blueBox5">
+                    <div id="objetivos" class="col-md-4 boxMain blueBox5">
                         <img src="{{ asset('imgs/trofeo-icon.svg') }}" alt="">
                         <p>Objetivos y campañas de reconocimiento comunes
             
                         </p>
+                        <audio id="my_objetivos">
+                            <source src="{{ asset( 'audio/page_'.$page.'_7.ogg' ) }}" type="audio/ogg">
+                            <source src="{{ asset( 'audio/page_'.$page.'_7.mp3' ) }}" type="audio/mpeg">
+                            Your browser does not support the audio element.
+                        </audio>
                     </div>
                 </div>
             </div><!-- /.container-fluid -->        
