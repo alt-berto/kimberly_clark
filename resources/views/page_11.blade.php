@@ -65,9 +65,10 @@
                                         <div class="modal-body">
                                         Respuesta incorrecta ¡Intentalo nuevamente!
                                         </div>
-                                </div>
+                                    </div>
                                 </div>
                             </div>
+
                         </div>
                     </div>
                 </div><!-- /.container-fluid -->
