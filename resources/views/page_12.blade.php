@@ -35,7 +35,7 @@
                         </ul>
                         <div class="boxWhite">
                             <!-- Button trigger modal -->
-                            <button id="desplegar" type="button" class="btn btn-primary" data-toggle="modal" data-target="#trueModal">
+                            <button id="desplegar" type="button" class="btn btn-primary" data-toggle="modal" data-target="#falseModal">
                                 Desplegar respuesta correcta
                             </button>
                         
