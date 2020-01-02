@@ -1,18 +1,18 @@
 $( document ).ready( function(  ) {
     //
     let audio = document.getElementById("myAudio");
-    let diagnostico = document.getElementById("my_diagnostico");
-    let diseno = document.getElementById("my_diseno");
-    let ejecucion  = document.getElementById("my_ejecucion");
-    let evaluacion = document.getElementById("my_evaluacion");
+    let uno = document.getElementById("my_uno");
+    let dos = document.getElementById("my_dos");
+    let tres  = document.getElementById("my_tres");
+    let cuatro = document.getElementById("my_cuatro");
 
     //
     function stop(  ) {
       audio.pause(  );
-      diagnostico.pause(  );
-      diseno.pause(  );
-      ejecucion.pause(  );
-      evaluacion.pause(  );
+      uno.pause(  );
+      dos.pause(  );
+      tres.pause(  );
+      cuatro.pause(  );
 ;
     }
     //
@@ -23,7 +23,7 @@ $( document ).ready( function(  ) {
         }        
     } 
     //
-    $( "#diagnostico" ).click( function(  ) {    
+    $( "#uno" ).click( function(  ) {    
       //
       $( this ).click( function(  ) {
             $( "#btn_audio" ).removeClass( "paused" );
@@ -38,7 +38,7 @@ $( document ).ready( function(  ) {
             $( this ).toggleClass( "stop" );
             let className = $( this ).attr( 'class' );        
             if ( className.includes( 'stop' ) ) {
-                diagnostico.play(  );
+                uno.play(  );
             } else {
                 stop(  );
             }        
@@ -46,7 +46,7 @@ $( document ).ready( function(  ) {
        } );
     } ) ;
     //
-    $( "#diseno" ).click( function(  ) {    
+    $( "#dos" ).click( function(  ) {    
         //
         $( this ).click( function(  ) {
             $( "#btn_audio" ).removeClass( "paused" );
@@ -61,7 +61,7 @@ $( document ).ready( function(  ) {
             $( this ).toggleClass( "stop" );
             let className = $( this ).attr( 'class' );        
             if ( className.includes( 'stop' ) ) {
-                diseno.play(  );
+                dos.play(  );
             } else {
                 stop(  );
             }        
@@ -69,7 +69,7 @@ $( document ).ready( function(  ) {
         } );
     } ) ;
     //
-    $( "#ejecucion" ).click( function(  ) {    
+    $( "#tres" ).click( function(  ) {    
         //
         $( this ).click( function(  ) {
             $( "#btn_audio" ).removeClass( "paused" );
@@ -84,7 +84,7 @@ $( document ).ready( function(  ) {
             $( this ).toggleClass( "stop" );
             let className = $( this ).attr( 'class' );        
             if ( className.includes( 'stop' ) ) {
-                ejecucion.play(  );
+                tres.play(  );
             } else {
                 stop(  );
             }        
@@ -92,7 +92,7 @@ $( document ).ready( function(  ) {
         } );
     } );
     //
-    $( "#evaluacion" ).click( function(  ) {    
+    $( "#cuatro" ).click( function(  ) {    
         //
         $( this ).click( function(  ) {
             $( "#btn_audio" ).removeClass( "paused" );
@@ -107,7 +107,7 @@ $( document ).ready( function(  ) {
             $( this ).toggleClass( "stop" );
             let className = $( this ).attr( 'class' );        
             if ( className.includes( 'stop' ) ) {
-                evaluacion.play(  );
+                cuatro.play(  );
             } else {
                 stop(  );
             }        

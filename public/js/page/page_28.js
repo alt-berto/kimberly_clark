@@ -14,21 +14,8 @@ $( document ).ready( function(  ) {
      $( "#id_true2" ).click( function(  ) {
         if ( $( this ).is( ':checked' ) ) {
             $( "#desplegar" ).attr("data-target", "#falseModal");
-        }
-     } );
-     $( "#id_true3" ).click( function(  ) {
-        if ( $( this ).is( ':checked' ) ) {
-            $( "#desplegar" ).attr("data-target", "#falseModal");
-        }
-     } );
-     $( "#id_true4" ).click( function(  ) {
-        if ( $( this ).is( ':checked' ) ) {
-            $( "#desplegar" ).attr("data-target", "#falseModal");
-        }
-     } );
-     $( "#id_true5" ).click( function(  ) {
-        if ( $( this ).is( ':checked' ) ) {
-            $( "#desplegar" ).attr("data-target", "#falseModal");
+        } else {
+            $( "#desplegar" ).attr("data-target", "#trueModal");
         }
      } );
 

@@ -23,23 +23,23 @@
                         
                         <ul class="animated rubberBand">
                             <li>
-                                <input type="checkbox" name="verdadero" value="verdadero" id="id_true">
+                                <input type="checkbox" class="selected" name="verdadero" value="1" id="id_true">
                                 <label for="id_true">Factoring con proveedores
                                 </label>
                             </li>
                             <li>
-                                <input type="checkbox" name="verdadero" value="verdadero" id="id_true2">
+                                <input type="checkbox" class="selected" name="verdadero" value="1" id="id_true2">
                                 <label for="id_true2">Factoring con clientes
 
                                 </label>
                             </li>
                             <li>
-                                <input type="checkbox" name="verdadero" value="verdadero" id="id_true3">
+                                <input type="checkbox" class="selected" name="verdadero" value="1" id="id_true3">
                                 <label for="id_true3">Pagos a traves de tarjetas de credito
                                 </label>
                             </li>
                             <li>
-                                <input type="checkbox" name="verdadero" value="verdadero" id="id_true4">
+                                <input type="checkbox" class="selected" name="verdadero" value="1" id="id_true4">
                                 <label for="id_true4">Negociar términos de plazo mas largo con los proveedores
 
 
@@ -49,12 +49,12 @@
                         </ul>
                         <div class="boxWhite">
                             <!-- Button trigger modal -->
-                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-                                deplegar respuesta correcta
+                            <button id="desplegar" type="button" class="btn btn-primary" data-toggle="modal" data-target="#falseModal">
+                                Desplegar respuesta correcta
                             </button>
                         
                             <!-- Modal -->
-                            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal fade" id="trueModal" tabindex="-1" role="dialog" aria-labelledby="trueModalLabel" aria-hidden="true">
                                 <div class="modal-dialog" role="document">
                                     <div class="modal-content">
                             
@@ -63,10 +63,26 @@
                                         </button>
                             
                                         <div class="modal-body">
-                                            ¡Excelente! Todos estos inventarios componen el DIO </div>
+                                            ¡Así es! El factoring con clientes es una iniciativa del DSO no del DPO. </div>
                                     </div>
                                 </div>
                             </div>
+                            <!-- Modal -->
+                            <div class="modal fade" id="falseModal" tabindex="-1" role="dialog" aria-labelledby="falseModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                            
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                            
+                                        <div class="modal-body">
+                                        Respuesta incorrecta ¡Intentalo nuevamente!
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                           

@@ -17,37 +17,57 @@
             </nav>
             <div class="container-fluid colorBoxes">
                 <div class="boxes row">
-                    <div class="col-md-6 boxMain blueBox1">
-                        <a href=""><img src="{{ asset('imgs/compras-admin-icon-24.svg') }}" alt=""></a>
+                    <div class="col-md-6 boxMain blueBox1" id="compras">
+                        <a href="#"><img src="{{ asset('imgs/compras-admin-icon-24.svg') }}" alt=""></a>
                         <p>Compras y
                             administración de
                             proveedores
                         </p>
+                        <audio id="my_compras">
+                            <source src="{{ asset( 'audio/page_'.$page.'_1.ogg' ) }}" type="audio/ogg">
+                            <source src="{{ asset( 'audio/page_'.$page.'_1.mp3' ) }}" type="audio/mpeg">
+                            Your browser does not support the audio element.
+                        </audio>
                     </div>
-                    <div class="col-md-6 boxMain blueBox2">
-                        <a href=""><img src="{{ asset('imgs/factura-process-icon-24.svg') }}" alt=""></a>
+                    <div class="col-md-6 boxMain blueBox2" id="facturas">
+                        <a href="#"><img src="{{ asset('imgs/factura-process-icon-24.svg') }}" alt=""></a>
                         <p>Procesamiento
                             de facturas
                         </p>
+                        <audio id="my_facturas">
+                            <source src="{{ asset( 'audio/page_'.$page.'_2.ogg' ) }}" type="audio/ogg">
+                            <source src="{{ asset( 'audio/page_'.$page.'_2.mp3' ) }}" type="audio/mpeg">
+                            Your browser does not support the audio element.
+                        </audio>
                     </div>
 
                 </div>
                 <div class="boxes row">
-                    <div class="col-md-6 boxMain blueBox1">
-                        <a href=""> <img src="{{ asset('imgs/icon-process-24.svg') }}" alt=""></a>
+                    <div class="col-md-6 boxMain blueBox1" id="pagos">
+                        <a href="#"> <img src="{{ asset('imgs/icon-process-24.svg') }}" alt=""></a>
 
                         <p>Procesamiento
                             de pagos
 
                         </p>
+                        <audio id="my_pagos">
+                            <source src="{{ asset( 'audio/page_'.$page.'_3.ogg' ) }}" type="audio/ogg">
+                            <source src="{{ asset( 'audio/page_'.$page.'_3.mp3' ) }}" type="audio/mpeg">
+                            Your browser does not support the audio element.
+                        </audio>
                     </div>
-                    <div class="col-md-6 boxMain blueBox2">
-                        <a href="">  <img src="{{ asset('imgs/icon-reports-24.svg') }}" alt=""></a>
+                    <div class="col-md-6 boxMain blueBox2" id="reportes">
+                        <a href="#">  <img src="{{ asset('imgs/icon-reports-24.svg') }}" alt=""></a>
 
                         <p>Reportes y
                             visibilidad
 
                         </p>
+                        <audio id="my_reportes">
+                            <source src="{{ asset( 'audio/page_'.$page.'_4.ogg' ) }}" type="audio/ogg">
+                            <source src="{{ asset( 'audio/page_'.$page.'_4.mp3' ) }}" type="audio/mpeg">
+                            Your browser does not support the audio element.
+                        </audio>
                     </div>
 
                 </div>

@@ -32,17 +32,17 @@
                                 </label>
                             </li>
                             <li>
-                                <input type="checkbox" class="selected" name="verdadero" value="verdadero" id="id_true2">
+                                <input type="checkbox" class="selected" name="verdadero" value="verdadero" id="id_true3">
                                 <label for="id_true3">Impuestos por cobrar
                                 </label>
                             </li>
                             <li>
-                                <input type="checkbox" class="selected" name="verdadero" value="verdadero" id="id_true2">
+                                <input type="checkbox" class="selected" name="verdadero" value="verdadero" id="id_true4">
                                 <label for="id_true4">Impuestos por pagar
                                 </label>
                             </li>
                             <li>
-                                <input type="checkbox" class="selected" name="verdadero" value="verdadero" id="id_true2">
+                                <input type="checkbox" class="selected" name="verdadero" value="verdadero" id="id_true5">
                                 <label for="id_true5">Pago de servicios públicos y arriendos
                                 </label>
                             </li>
