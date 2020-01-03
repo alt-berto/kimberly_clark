@@ -1,19 +1,23 @@
 $( document ).ready( function(  ) {
     //
     let audio = document.getElementById("myAudio");
-    let diagnostico = document.getElementById("my_diagnostico");
-    let diseno = document.getElementById("my_diseno");
-    let ejecucion  = document.getElementById("my_ejecucion");
-    let evaluacion = document.getElementById("my_evaluacion");
-
+    let ventas = document.getElementById("my_ventas");
+    let apply = document.getElementById("my_apply");
+    let resolucion  = document.getElementById("my_resolucion");
+    let recaudo = document.getElementById("my_recaudo");
+    let facturacion = document.getElementById("my_facturacion");
+    let orden = document.getElementById("my_orden");
+    let credito = document.getElementById("my_anticipo");
     //
     function stop(  ) {
       audio.pause(  );
-      diagnostico.pause(  );
-      diseno.pause(  );
-      ejecucion.pause(  );
-      evaluacion.pause(  );
-;
+      ventas.pause(  );
+      apply.pause(  );
+      resolucion.pause(  );
+      recaudo.pause(  );
+      facturacion.pause(  );
+      orden.pause(  );
+      credito.pause(  );
     }
     //
     function doBounce( element, times, distance, speed ) {
@@ -23,22 +27,22 @@ $( document ).ready( function(  ) {
         }        
     } 
     //
-    $( "#diagnostico" ).click( function(  ) {    
+    $( "#ventas" ).click( function(  ) {    
       //
       $( this ).click( function(  ) {
             $( "#btn_audio" ).removeClass( "paused" );
             stop(  );
             doBounce( $( this ), 3, '10px', 300 );
-            /*$( ".mainInfo" ).empty();
+            $( ".mainInfo" ).empty();
             $( ".mainInfo" ).append( `<p>
-                .
-            </p>` );*/
+                Según la estrategia comercial, marketing y corporativa en general, se hace una alineación de cuáles son los productos o referencias principales para la venta.
+            </p>` );
             doBounce( $( ".mainInfo" ), 3, '10px', 300 );
             //
             $( this ).toggleClass( "stop" );
             let className = $( this ).attr( 'class' );        
             if ( className.includes( 'stop' ) ) {
-                diagnostico.play(  );
+                ventas.play(  );
             } else {
                 stop(  );
             }        
@@ -46,22 +50,22 @@ $( document ).ready( function(  ) {
        } );
     } ) ;
     //
-    $( "#diseno" ).click( function(  ) {    
+    $( "#apply" ).click( function(  ) {    
         //
         $( this ).click( function(  ) {
             $( "#btn_audio" ).removeClass( "paused" );
             stop(  );
             doBounce( $( this ), 3, '10px', 300 );
-            /*$( ".mainInfo" ).empty();
+            $( ".mainInfo" ).empty();
             $( ".mainInfo" ).append( `<p>
-                .
-            </p>` );*/
+                El departamento de transportes se encarga de recoger el producto terminado y hacer la entrega de los mismos hasta las bodegas o centros de distribución de nuestros clientes, quienes a su vez lo comercializarán a nuestros consumidores para hacer realidad la visión de nuestra compañía: Liderando el mundo en productos esenciales para una vida mejor.
+            </p>` );
             doBounce( $( ".mainInfo" ), 3, '10px', 300 );
             //
             $( this ).toggleClass( "stop" );
             let className = $( this ).attr( 'class' );        
             if ( className.includes( 'stop' ) ) {
-                diseno.play(  );
+                apply.play(  );
             } else {
                 stop(  );
             }        
@@ -69,22 +73,22 @@ $( document ).ready( function(  ) {
         } );
     } ) ;
     //
-    $( "#ejecucion" ).click( function(  ) {    
+    $( "#resolucion" ).click( function(  ) {    
         //
         $( this ).click( function(  ) {
             $( "#btn_audio" ).removeClass( "paused" );
             stop(  );
             doBounce( $( this ), 3, '10px', 300 );
-            /*$( ".mainInfo" ).empty();
+            $( ".mainInfo" ).empty();
             $( ".mainInfo" ).append( `<p>
-                .
-            </p>` );*/
+                Una vez el producto está debidamente empacado y verificado, se almacena en las bodegas de la compañía esperando a que se llegue el momento preciso para la entrega al cliente.
+            </p>` );
             doBounce( $( ".mainInfo" ), 3, '10px', 300 );
             //
             $( this ).toggleClass( "stop" );
             let className = $( this ).attr( 'class' );        
             if ( className.includes( 'stop' ) ) {
-                ejecucion.play(  );
+                resolucion.play(  );
             } else {
                 stop(  );
             }        
@@ -92,22 +96,22 @@ $( document ).ready( function(  ) {
         } );
     } );
     //
-    $( "#evaluacion" ).click( function(  ) {    
+    $( "#recaudo" ).click( function(  ) {    
         //
         $( this ).click( function(  ) {
             $( "#btn_audio" ).removeClass( "paused" );
             stop(  );
             doBounce( $( this ), 3, '10px', 300 );
-            /*$( ".mainInfo" ).empty();
+            $( ".mainInfo" ).empty();
             $( ".mainInfo" ).append( `<p>
-                .
-            </p>` );*/
+                En paralelo con los pasos anteriores, las plantas de producción comienzan con el proceso de fabricación y empaque administrando los insumos recibiendo y siendo lo más eficientes posibles.
+            </p>` );
             doBounce( $( ".mainInfo" ), 3, '10px', 300 );
             //
             $( this ).toggleClass( "stop" );
             let className = $( this ).attr( 'class' );        
             if ( className.includes( 'stop' ) ) {
-                evaluacion.play(  );
+                recaudo.play(  );
             } else {
                 stop(  );
             }        
@@ -115,6 +119,73 @@ $( document ).ready( function(  ) {
         } );
     } ) ;
     //
-    
+    $( "#facturacion" ).click( function(  ) {    
+        //
+        $( this ).click( function(  ) {
+            $( "#btn_audio" ).removeClass( "paused" );
+            stop(  );
+            doBounce( $( this ), 3, '10px', 300 );
+            $( ".mainInfo" ).empty();
+            $( ".mainInfo" ).append( `<p>
+                El departamento de Servicio al Cliente se encarga de asignar las citas para la entrega y de coordinar con el departamento de transportes las fechas y lugares de entrega según disponibilidad de cada cliente.
+            </p>` );
+            doBounce( $( ".mainInfo" ), 3, '10px', 300 );
+            //
+            $( this ).toggleClass( "stop" );
+            let className = $( this ).attr( 'class' );        
+            if ( className.includes( 'stop' ) ) {
+                facturacion.play(  );
+            } else {
+                stop(  );
+            }        
+            return false;
+        } );
+    } ) ;
+    //
+    $( "#orden" ).click( function(  ) {    
+        //
+        $( this ).click( function(  ) {
+            $( "#btn_audio" ).removeClass( "paused" );
+            stop(  );
+            doBounce( $( this ), 3, '10px', 300 );
+            $( ".mainInfo" ).empty();
+            $( ".mainInfo" ).append( `<p>
+                El departamento de ventas dependiendo de la estrategia comercial, se encarga de hacer la solicitud de productos para los clientes que atiende.
+            </p>` );
+            doBounce( $( ".mainInfo" ), 3, '10px', 300 );
+            //
+            $( this ).toggleClass( "stop" );
+            let className = $( this ).attr( 'class' );        
+            if ( className.includes( 'stop' ) ) {
+                orden.play(  );
+            } else {
+                stop(  );
+            }        
+            return false;
+        } );
+    } ) ;
+    //
+    $( "#anticipo" ).click( function(  ) {    
+        //
+        $( this ).click( function(  ) {
+            $( "#btn_audio" ).removeClass( "paused" );
+            stop(  );
+            doBounce( $( this ), 3, '10px', 300 );
+            $( ".mainInfo" ).empty();
+            $( ".mainInfo" ).append( `<p>
+                Dependiendo del ciclo de venta, la estrategia y acompañamiento de publicidad y marketing, se elabora una proyección de cantidades y detalle de qué productos deberían producirse. Con esta información, los departamentos de compras y de manufactura comienzan a prepararse y solicitar los insumos correspondientes.
+            </p>` );
+            doBounce( $( ".mainInfo" ), 3, '10px', 300 );
+            //
+            $( this ).toggleClass( "stop" );
+            let className = $( this ).attr( 'class' );        
+            if ( className.includes( 'stop' ) ) {
+                credito.play(  );
+            } else {
+                stop(  );
+            }        
+            return false;
+        } );
+    } ) ;
   
   } );

@@ -79,9 +79,9 @@
                         </div>
                         <div class="mainInfo">
                             <p>Al dar click en alguna
-                                de las secciones (Ventas,
-                                Administración del Crédito,
-                                Ordenamiento, etc)  debe aparecer
+                                de las secciones (Administración de productos,
+                               Proyecciones,
+                                Proceso de Ordenamiento, etc)  debe aparecer
                                 el texto explicatvo aquí junto con la
                                 flecha correspondiente
                 
