@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="67cc7248-8df5-4770-9d04-37f7f538080b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/public/css/sb-admin.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/sb-admin.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/page_30.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/page_30.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,12 +31,12 @@
           <entry key="env" value="1" />
           <entry key="gitignore" value="1" />
           <entry key="js" value="4" />
-          <entry key="php" value="41" />
+          <entry key="php" value="44" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Blade" value="41" />
+          <entry key="Blade" value="44" />
           <entry key="CSS" value="8" />
           <entry key="JavaScript" value="4" />
           <entry key="PLAIN_TEXT" value="2" />
@@ -43,15 +44,15 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="528" />
+          <entry key="css" value="650" />
           <entry key="gitignore" value="1" />
-          <entry key="php" value="708" />
+          <entry key="php" value="830" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Blade" value="708" />
-          <entry key="CSS" value="528" />
+          <entry key="Blade" value="830" />
+          <entry key="CSS" value="650" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
@@ -62,29 +63,33 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/css/sb-admin.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="926" column="2" selection-start-line="926" selection-start-column="2" selection-end-line="926" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/page_31.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+            <state relative-caret-position="214">
+              <caret line="920" column="7" selection-start-line="920" selection-start-column="2" selection-end-line="920" selection-end-column="7" />
               <folding>
-                <element signature="e#2050#2405#0#HTML" />
+                <element signature="e#56279#56513#2" expanded="true" />
+                <element signature="e#57496#57649#1" expanded="true" />
+                <element signature="e#57691#57925#1" expanded="true" />
+                <element signature="e#61550#61826#2" expanded="true" />
+                <element signature="e#62837#62990#1" expanded="true" />
+                <element signature="e#63032#63308#1" expanded="true" />
+                <element signature="e#103124#103311#2" expanded="true" />
+                <element signature="e#103572#103708#2" expanded="true" />
+                <element signature="e#104169#104302#2" expanded="true" />
+                <element signature="e#106313#106466#1" expanded="true" />
+                <element signature="e#125555#125785#2" expanded="true" />
+                <element signature="e#126821#127057#2" expanded="true" />
+                <element signature="e#168509#168686#2" expanded="true" />
+                <element signature="e#168743#168920#2" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/css/main.css">
+        <entry file="file://$PROJECT_DIR$/resources/views/page_33.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="3" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
+            <state relative-caret-position="330">
+              <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -126,11 +131,12 @@
         <option value="$PROJECT_DIR$/resources/views/page_27.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/page_28.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/page_29.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/page_30.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/page_32.blade.php" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/public/css/main.css" />
         <option value="$PROJECT_DIR$/resources/views/page_31.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/page_30.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/page_32.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/page_33.blade.php" />
         <option value="$PROJECT_DIR$/public/css/sb-admin.css" />
       </list>
     </option>
@@ -237,8 +243,9 @@
       <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1682" />
+    <option name="y" value="61" />
     <option name="width" value="1440" />
     <option name="height" value="841" />
   </component>
@@ -314,15 +321,15 @@
       <workItem from="1576016143300" duration="12501000" />
       <workItem from="1576255710936" duration="9483000" />
       <workItem from="1576345261872" duration="306000" />
-      <workItem from="1578247808642" duration="3363000" />
+      <workItem from="1578247808642" duration="5372000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25653000" />
+    <option name="totallyTimeSpent" value="27662000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="841" extended-state="6" />
+    <frame x="1682" y="61" width="1440" height="841" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21745351" />
@@ -527,14 +534,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/page_30.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/page_32.blade.php" />
     <entry file="file://$PROJECT_DIR$/public/css/all.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-64953">
@@ -566,10 +565,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/page_30.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="51" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/page_32.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/page_33.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/css/sb-admin.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="926" column="2" selection-start-line="926" selection-start-column="2" selection-end-line="926" selection-end-column="2" />
+        <state relative-caret-position="214">
+          <caret line="920" column="7" selection-start-line="920" selection-start-column="2" selection-end-line="920" selection-end-column="7" />
+          <folding>
+            <element signature="e#56279#56513#2" expanded="true" />
+            <element signature="e#57496#57649#1" expanded="true" />
+            <element signature="e#57691#57925#1" expanded="true" />
+            <element signature="e#61550#61826#2" expanded="true" />
+            <element signature="e#62837#62990#1" expanded="true" />
+            <element signature="e#63032#63308#1" expanded="true" />
+            <element signature="e#103124#103311#2" expanded="true" />
+            <element signature="e#103572#103708#2" expanded="true" />
+            <element signature="e#104169#104302#2" expanded="true" />
+            <element signature="e#106313#106466#1" expanded="true" />
+            <element signature="e#125555#125785#2" expanded="true" />
+            <element signature="e#126821#127057#2" expanded="true" />
+            <element signature="e#168509#168686#2" expanded="true" />
+            <element signature="e#168743#168920#2" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

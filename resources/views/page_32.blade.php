@@ -10,32 +10,23 @@
             <!-- Sidebar -->
             <side-menu-component page-num="{{ $page }}"></side-menu-component>
             <!-- -->
-            <div id="content-wrapper" class="purple2BoxMain">
+            <div id="content-wrapper" class="blue2BoxMain">
                 <nav class="navbar static-top">
-                    <h1 class="mainTitle">Playbook de CCC
+                    <h1 class="mainTitle">Algunos tips: Do’s and Don’ts
                     </h1>
                 </nav>
                 <div class="container-fluid">
-                   <div class="col-md-6 animated bounceInUp">
-                       <img src="{{ asset('imgs/cccplaybook12.png') }}" alt="">
-                   </div>
-
-                    <div class="col-md-6">
+                    <div class="donts">
+                        <img src="{{ asset('imgs/donts-bg.jpg') }}" alt="">
                     </div>
+
 
                 </div><!-- /.container-fluid -->
             </div>
             <!-- /.content-wrapper -->
         </div>
         <!-- /#wrapper -->
-        <div class="playBox">
-            <audio id="myAudio">
-                <source src="{{ asset( 'audio/page_'.$page.'.ogg' ) }}" type="audio/ogg">
-                <source src="{{ asset( 'audio/page_'.$page.'.mp3' ) }}" type="audio/mpeg">
-                Your browser does not support the audio element.
-              </audio>
-            <button id="btn_audio" class='btn_audio'> Play </button>
-        </div>
+
         
         <div class="pageBox">
             <p><strong>{{ $page }}</strong></p>
