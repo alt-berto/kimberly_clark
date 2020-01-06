@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="67cc7248-8df5-4770-9d04-37f7f538080b" name="Default Changelist" comment="" />
+    <list default="true" id="67cc7248-8df5-4770-9d04-37f7f538080b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/public/css/sb-admin.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/sb-admin.css" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +43,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="525" />
+          <entry key="css" value="528" />
           <entry key="gitignore" value="1" />
           <entry key="php" value="708" />
         </counts>
@@ -49,7 +51,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Blade" value="708" />
-          <entry key="CSS" value="525" />
+          <entry key="CSS" value="528" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
@@ -60,8 +62,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/css/sb-admin.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="893" column="33" lean-forward="true" selection-start-line="893" selection-start-column="33" selection-end-line="893" selection-end-column="33" />
+            <state relative-caret-position="290">
+              <caret line="926" column="2" selection-start-line="926" selection-start-column="2" selection-end-line="926" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -128,8 +130,8 @@
         <option value="$PROJECT_DIR$/resources/views/page_32.blade.php" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/public/css/main.css" />
-        <option value="$PROJECT_DIR$/public/css/sb-admin.css" />
         <option value="$PROJECT_DIR$/resources/views/page_31.blade.php" />
+        <option value="$PROJECT_DIR$/public/css/sb-admin.css" />
       </list>
     </option>
   </component>
@@ -312,12 +314,12 @@
       <workItem from="1576016143300" duration="12501000" />
       <workItem from="1576255710936" duration="9483000" />
       <workItem from="1576345261872" duration="306000" />
-      <workItem from="1578247808642" duration="3084000" />
+      <workItem from="1578247808642" duration="3363000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25374000" />
+    <option name="totallyTimeSpent" value="25653000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="841" extended-state="6" />
@@ -566,8 +568,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/css/sb-admin.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="893" column="33" lean-forward="true" selection-start-line="893" selection-start-column="33" selection-end-line="893" selection-end-column="33" />
+        <state relative-caret-position="290">
+          <caret line="926" column="2" selection-start-line="926" selection-start-column="2" selection-end-line="926" selection-end-column="2" />
         </state>
       </provider>
     </entry>

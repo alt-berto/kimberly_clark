@@ -919,11 +919,20 @@ button:focus{
     bottom: 14%;
   }
 
+  .circlesEachOption .apply {
+    left: 5%;
+  }.boxBlue .circlesEachOption .resolucion {
+     position: absolute;
+     top: 37%;
+     left: -4%;
+   }
+
   .circleOptions .mainCuentas {
     max-width: 390px;
     left: 26%;
     top: 23%;
   }
+
 
   .circlesEachOption .ventas, .circlesEachOption .circleBlue1 {
     position: absolute;
