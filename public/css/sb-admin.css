@@ -916,11 +916,13 @@ button:focus{
     left: 7%;
   }
   .boxBlue .circlesEachOption .recaudo {
-    bottom: 11%;
+    bottom: 14%;
   }
 
   .circleOptions .mainCuentas {
-    max-width: 466px;
+    max-width: 390px;
+    left: 26%;
+    top: 23%;
   }
 
   .circlesEachOption .ventas, .circlesEachOption .circleBlue1 {
@@ -931,10 +933,18 @@ button:focus{
   .circlesEachOption .mainCircleBlue {
     left: 23%;
   }
-
+  .circlesEachOption .facturacion {
+    bottom: 21%;
+  }
+  .anticipo {
+    right: 8%;
+  }
+  .circlesEachOption .orden {
+    top: 40%;
+    right: 9%;
+  }
   .circleOptions {
     position: relative!important;
-    margin-top: 91px;
   }
   .circlesEachOption .circleBlue4 {
     position: absolute;
