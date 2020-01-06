@@ -854,6 +854,17 @@ button:focus{
 }
 
 
+.purpleBoxMain h6 {
+  color: #fff;
+  margin: 30px 0;
+}
+
+.purpleMain2{
+  background: url(../imgs/bg-31.png) no-repeat scroll right 0 #714d9b;
+  background-size: contain;
+}
+
+
 .purple2BoxMain{
   background: url(../imgs/playbook-main2.png) no-repeat scroll right 0 white;
   background-size: contain;
