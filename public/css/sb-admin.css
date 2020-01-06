@@ -921,6 +921,21 @@ button:focus {
     border-bottom: 30px solid #714d9b;
 }
 
+resultsFinal p {
+    position: relative;
+    top: 15%;
+    font-weight: 500;
+}
+
+.boxMain .resultsBox {
+    position: absolute;
+    width: 100%;
+    display: block;
+    max-width: 100%;
+    z-index: 100;
+    bottom: -3px;
+}
+
 /*media queries*/
 
 @media only screen and (min-device-width: 1536px) and (max-device-width: 4500px) {
