@@ -179,7 +179,7 @@ margin-bottom: 60px;
 .boxes img {
   max-width: 42%;
   width: 100%;
-  margin: 0 auto 40px;
+  margin: 10px auto 40px;
   display: block;
 }
 
@@ -193,11 +193,10 @@ margin-bottom: 60px;
 
 .boxMain {
   cursor: pointer;
-  padding: 2rem;
+  padding: 0rem;
   min-height: 100%;
-  height: 50vh;
+  height: 46vh;
 }
-
 
 .space{
  min-height: 300px;
@@ -604,16 +603,22 @@ display: block;
 .blueCuentas .circlesEachOption .resolucion img {
     width: 200px;
 }
+*:focus {
+  outline: none;
+}
 
+button:focus{
+  outline: none!important;
+}
 
 .greenWrapper, .greenWrapper .navbar{
   background: #53b58e;
 }
-
 .playBox {
   position: absolute;
-  bottom: 2%;
-  left: 25px;
+  top: 21px;
+  right: 134px;
+  z-index: 1000;
 }
 .playBox strong {
   color: #2b318b;
@@ -814,7 +819,7 @@ display: block;
 .boxes .col-md-6 img {
   max-width: 29%;
   width: 100%;
-  margin: 0 auto -1px;
+  margin: 10px auto -1px;
   display: block;
 }
 
