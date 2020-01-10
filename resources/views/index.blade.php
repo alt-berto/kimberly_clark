@@ -15,6 +15,10 @@
           Caja</h1>
     
         <h4>¡Juntos sumamos más!</h4>
+          <br>
+
+          <a class="btn btn-primary btn-lg blueButton" href="{{ URL::to('/page/1') }}">¡Comencemos!</a>
+          <button id="btn_audio" type="button" class="btn_audio btn btn-secondary btn-lg blueButton">Pausa <i class="fas fa-play"></i></button>
         </div>
       </div>
       <div class="col-md-6 mainBG">
@@ -25,7 +29,7 @@
     
       <footer class="NexFooter row">
         <div class="col-md-6">
-          <a class="nextArrow" href="{{ URL::to('/page/1') }}"><img src="imgs/arrow-next.svg" alt=""></a>
+
         </div>
         <div class="pageBox" style="bottom: 20%; right: 45px;">
           <audio id="myAudio">
@@ -33,7 +37,6 @@
               <source src="{{ asset( 'audio/home.mp3' ) }}" type="audio/mpeg">
               Your browser does not support the audio element.
             </audio>
-          <button id="btn_audio" class='btn_audio'> Play </button>
         </div>
       
  

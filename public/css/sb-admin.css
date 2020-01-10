@@ -834,6 +834,11 @@ button:focus {
 
 }
 
+#mainWrapperCCC .blueButton{
+    background: #382f88;
+    border-color: #382f88;
+}
+
 .boxBlue {
     background: #2b318b;
 }

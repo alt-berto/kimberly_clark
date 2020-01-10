@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67cc7248-8df5-4770-9d04-37f7f538080b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/public/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/sb-admin.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/sb-admin.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,38 +22,39 @@
           <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="8" />
-          <entry key="env" value="1" />
+          <entry key="css" value="11" />
+          <entry key="env" value="2" />
           <entry key="gitignore" value="1" />
           <entry key="js" value="4" />
-          <entry key="php" value="45" />
+          <entry key="php" value="46" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Blade" value="45" />
-          <entry key="CSS" value="8" />
+          <entry key="Blade" value="46" />
+          <entry key="CSS" value="11" />
           <entry key="JavaScript" value="4" />
-          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="PLAIN_TEXT" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="682" />
+          <entry key="css" value="698" />
           <entry key="gitignore" value="1" />
-          <entry key="php" value="887" />
+          <entry key="php" value="937" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Blade" value="887" />
-          <entry key="CSS" value="682" />
+          <entry key="Blade" value="937" />
+          <entry key="CSS" value="698" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
@@ -59,45 +62,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/css/sb-admin.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="923" column="16" lean-forward="true" selection-start-line="923" selection-start-column="16" selection-end-line="923" selection-end-column="16" />
-              <folding>
-                <element signature="e#56279#56513#2" expanded="true" />
-                <element signature="e#57496#57649#1" expanded="true" />
-                <element signature="e#57691#57925#1" expanded="true" />
-                <element signature="e#61550#61826#2" expanded="true" />
-                <element signature="e#62837#62990#1" expanded="true" />
-                <element signature="e#63032#63308#1" expanded="true" />
-                <element signature="e#103124#103311#2" expanded="true" />
-                <element signature="e#103572#103708#2" expanded="true" />
-                <element signature="e#104169#104302#2" expanded="true" />
-                <element signature="e#106313#106466#1" expanded="true" />
-                <element signature="e#125555#125785#2" expanded="true" />
-                <element signature="e#126821#127057#2" expanded="true" />
-                <element signature="e#168509#168686#2" expanded="true" />
-                <element signature="e#168743#168920#2" expanded="true" />
-              </folding>
+            <state relative-caret-position="193">
+              <caret line="837" column="24" lean-forward="true" selection-start-line="837" selection-start-column="24" selection-end-line="837" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/page_34.blade.php">
+        <entry file="file://$PROJECT_DIR$/public/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="51" lean-forward="true" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="63" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/page_33.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="41" />
+            <state relative-caret-position="120">
+              <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -139,14 +126,15 @@
         <option value="$PROJECT_DIR$/resources/views/page_27.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/page_28.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/page_29.blade.php" />
-        <option value="$PROJECT_DIR$/.env" />
-        <option value="$PROJECT_DIR$/public/css/main.css" />
         <option value="$PROJECT_DIR$/resources/views/page_31.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/page_30.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/page_32.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/page_33.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/page_34.blade.php" />
+        <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/public/css/sb-admin.css" />
+        <option value="$PROJECT_DIR$/public/css/main.css" />
+        <option value="$PROJECT_DIR$/resources/views/index.blade.php" />
       </list>
     </option>
   </component>
@@ -252,9 +240,8 @@
       <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1682" />
-    <option name="y" value="61" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="841" />
   </component>
@@ -274,6 +261,12 @@
               <item name="kimberly_clark" type="b2602c69:ProjectViewProjectNode" />
               <item name="kimberly_clark" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kimberly_clark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kimberly_clark" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="kimberly_clark" type="b2602c69:ProjectViewProjectNode" />
@@ -331,17 +324,18 @@
       <workItem from="1576255710936" duration="9483000" />
       <workItem from="1576345261872" duration="306000" />
       <workItem from="1578247808642" duration="6141000" />
+      <workItem from="1578673505926" duration="1529000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28431000" />
+    <option name="totallyTimeSpent" value="29960000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1682" y="61" width="1440" height="841" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="841" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21745351" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22031474" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -543,34 +537,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/all.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-64953">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="3" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/page_31.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
-          <folding>
-            <element signature="e#2050#2405#0#HTML" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -602,26 +572,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="45" column="46" selection-start-line="45" selection-start-column="46" selection-end-line="45" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/all.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/css/sb-admin.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="923" column="16" lean-forward="true" selection-start-line="923" selection-start-column="16" selection-end-line="923" selection-end-column="16" />
-          <folding>
-            <element signature="e#56279#56513#2" expanded="true" />
-            <element signature="e#57496#57649#1" expanded="true" />
-            <element signature="e#57691#57925#1" expanded="true" />
-            <element signature="e#61550#61826#2" expanded="true" />
-            <element signature="e#62837#62990#1" expanded="true" />
-            <element signature="e#63032#63308#1" expanded="true" />
-            <element signature="e#103124#103311#2" expanded="true" />
-            <element signature="e#103572#103708#2" expanded="true" />
-            <element signature="e#104169#104302#2" expanded="true" />
-            <element signature="e#106313#106466#1" expanded="true" />
-            <element signature="e#125555#125785#2" expanded="true" />
-            <element signature="e#126821#127057#2" expanded="true" />
-            <element signature="e#168509#168686#2" expanded="true" />
-            <element signature="e#168743#168920#2" expanded="true" />
-          </folding>
+        <state relative-caret-position="193">
+          <caret line="837" column="24" lean-forward="true" selection-start-line="837" selection-start-column="24" selection-end-line="837" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
         </state>
       </provider>
     </entry>
