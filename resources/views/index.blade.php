@@ -18,7 +18,7 @@
           <br>
 
           <a class="btn btn-primary btn-lg blueButton" href="{{ URL::to('/page/1') }}">¡Comencemos!</a>
-          <button id="btn_audio" type="button" class="btn_audio btn btn-secondary btn-lg blueButton">Pausa <i class="fas fa-play"></i></button>
+          <button id="btn_audio" type="button" class="btn_audio btn btn-secondary btn-lg blueButton">Pausa / Play <i class="fas fa-play"></i></button>
         </div>
       </div>
       <div class="col-md-6 mainBG">

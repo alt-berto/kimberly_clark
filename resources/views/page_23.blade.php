@@ -17,7 +17,7 @@
             </nav>
             <div class="container-fluid colorBoxes">
                 <div class="boxes row">
-                    <div class="col-md-6 boxMain blueBox1" id="compras">
+                    <div class="col-md-6 boxMain animated pulse blueBox1" id="compras">
                         <a href="#"><img src="{{ asset('imgs/compras-admin-icon-24.svg') }}" alt=""></a>
                         <p>Compras y
                             administración de
@@ -29,7 +29,7 @@
                             Your browser does not support the audio element.
                         </audio>
                     </div>
-                    <div class="col-md-6 boxMain blueBox2" id="facturas">
+                    <div class="col-md-6 boxMain blueBox2 animated pulse" id="facturas">
                         <a href="#"><img src="{{ asset('imgs/factura-process-icon-24.svg') }}" alt=""></a>
                         <p>Procesamiento
                             de facturas
@@ -43,7 +43,7 @@
 
                 </div>
                 <div class="boxes row">
-                    <div class="col-md-6 boxMain blueBox1" id="pagos">
+                    <div class="col-md-6 boxMain animated pulse blueBox1" id="pagos">
                         <a href="#"> <img src="{{ asset('imgs/icon-process-24.svg') }}" alt=""></a>
 
                         <p>Procesamiento
@@ -56,7 +56,7 @@
                             Your browser does not support the audio element.
                         </audio>
                     </div>
-                    <div class="col-md-6 boxMain blueBox2" id="reportes">
+                    <div class="col-md-6 boxMain animated pulse blueBox2" id="reportes">
                         <a href="#">  <img src="{{ asset('imgs/icon-reports-24.svg') }}" alt=""></a>
 
                         <p>Reportes y
@@ -83,7 +83,8 @@
             <source src="{{ asset( 'audio/page_'.$page.'.mp3' ) }}" type="audio/mpeg">
             Your browser does not support the audio element.
           </audio>
-        <button id="btn_audio" class='btn_audio'> Play </button>
+        <button id="btn_audio" type="button" class="btn_audio btn btn-secondary btn-lg blueButton">Pausa / Play <i class="fas fa-play"></i></button>
+
     </div>
     
     <div class="pageBox">

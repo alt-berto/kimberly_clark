@@ -19,9 +19,9 @@
                 <div class="content3">
                     <div class="topLineColor"></div>
                     <div class="quizInfo">
-                        <p class="animated bounceInDown">2. Selecciona las iniciativas del DPO </p>
+                        <p class="animated fadeInDown">2. Selecciona las iniciativas del DPO </p>
                         
-                        <ul class="animated rubberBand">
+                        <ul class="animated fadeInUp">
                             <li>
                                 <input type="checkbox" class="selected" name="verdadero" value="1" id="id_true">
                                 <label for="id_true">Factoring con proveedores
@@ -99,7 +99,8 @@
             <source src="{{ asset( 'audio/page_'.$page.'.mp3' ) }}" type="audio/mpeg">
             Your browser does not support the audio element.
           </audio>
-        <button id="btn_audio" class='btn_audio'> Play </button>
+        <button id="btn_audio" type="button" class="btn_audio btn btn-secondary btn-lg blueButton">Pausa / Play <i class="fas fa-play"></i></button>
+
     </div>
     
     <div class="pageBox">

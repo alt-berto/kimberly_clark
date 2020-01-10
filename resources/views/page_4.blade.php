@@ -20,12 +20,12 @@
                 <div class="content3 row">
                     <div class="topLineColor"></div>                    
                     <div class="col-md-6 ciclo">
-                        <img class="animated bounceInLeft guy" src="{{ asset('imgs/ciclo-de-caja-guy.png') }}" alt="">
+                        <img class="animated fadeInLeft guy" src="{{ asset('imgs/ciclo-de-caja-guy.png') }}" alt="">
                     </div>
                     <div class="col-md-6 cicloSteps ciclo">
-                        <img class="animated bounceInDown" src="{{ asset('imgs/ciclo-de-caja-paso1.png') }}" alt="">
-                        <img class="animated bounceIn" src="{{ asset('imgs/ciclo-de-caja-paso2.png') }}" alt="">
-                        <img class="animated bounceInUp" src="{{ asset('imgs/ciclo-de-caja-paso3.png') }}" alt="">
+                        <img class="animated pulse" src="{{ asset('imgs/ciclo-de-caja-paso1.png') }}" alt="">
+                        <img class="animated pulse" src="{{ asset('imgs/ciclo-de-caja-paso2.png') }}" alt="">
+                        <img class="animated pulse" src="{{ asset('imgs/ciclo-de-caja-paso3.png') }}" alt="">
                     </div>
                 </div><!-- /.container-fluid -->
             </div><!-- /.container-fluid -->        
@@ -39,7 +39,8 @@
             <source src="{{ asset( 'audio/page_'.$page.'.mp3' ) }}" type="audio/mpeg">
             Your browser does not support the audio element.
           </audio>
-        <button id="btn_audio" class='btn_audio'> Play </button>
+        <button id="btn_audio" type="button" class="btn_audio btn btn-secondary btn-lg blueButton">Pausa / Play <i class="fas fa-play"></i></button>
+
     </div>
     
     <div class="pageBox">

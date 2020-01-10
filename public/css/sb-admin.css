@@ -362,6 +362,33 @@ html, body {
 
 }
 
+.circleBoxEnter .recaudo {
+    position: absolute;
+    bottom: 8% !important;
+    left: 8%!important;
+}
+.circleBoxEnter .apply {
+    position: absolute;
+    top: 57px!important;
+    left: 45px!important;
+}
+
+.circleBoxEnter .anticipo2 {
+    position: absolute;
+    right: 33px!important;
+    top: 5% !important;
+}
+
+.circleBoxEnter .anticipo2 img {
+    width: 200px!important;
+}
+
+
+.circleBoxEnter .facturacion {
+    position: absolute;
+    bottom: 9%!important;
+    right: 6%!important;
+}
 .circlesEachOption img {
     display: block;
     width: 200px;
@@ -440,7 +467,7 @@ html, body {
 .circlesEachOption .orden {
     position: absolute;
     top: 45%;
-    right: -3%;
+    right: 0;
 }
 
 .circlesEachOption .circleBlue5 {
@@ -638,9 +665,13 @@ button:focus {
 
 .playBox {
     position: absolute;
-    top: 21px;
-    right: 134px;
     z-index: 1000;
+    left: 13px;
+    bottom: 22px;
+}
+.playBox #btn_audio{
+    background: #382f88;
+    border-color: #382f88;
 }
 
 .playBox strong {
@@ -12553,7 +12584,7 @@ body {
         border-bottom: 1px solid #2b318b;
         width: 225px;
         font-size: 1em;
-        line-height: 17px;
+        line-height: 14px;
     }
 
     .sidebar .nav-item .nav-link span {

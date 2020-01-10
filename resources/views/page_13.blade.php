@@ -19,9 +19,9 @@
                 <div class="content3">
                     <div class="topLineColor"></div>
                     <div class="quizInfo">
-                        <p class="animated bounceInDown">3. De la siguiente lista, elija los que componen las cuentas por cobrar en KC:</p>
+                        <p class="animated fadeInDown">3. De la siguiente lista, elija los que componen las cuentas por cobrar en KC:</p>
                         
-                        <ul class="animated rubberBand">
+                        <ul class="animated fadeInUp">
                             <li>
                                 <input type="checkbox" class="selected" name="verdadero" value="verdadero" id="id_true">
                                 <label for="id_true">Cartera intercompany o consolidadas</label>
@@ -100,7 +100,8 @@
             <source src="{{ asset( 'audio/page_'.$page.'.mp3' ) }}" type="audio/mpeg">
             Your browser does not support the audio element.
           </audio>
-        <button id="btn_audio" class='btn_audio'> Play </button>
+        <button id="btn_audio" type="button" class="btn_audio btn btn-secondary btn-lg blueButton">Pausa / Play <i class="fas fa-play"></i></button>
+
     </div>
     
     <div class="pageBox">

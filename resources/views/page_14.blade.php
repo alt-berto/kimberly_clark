@@ -20,7 +20,7 @@
                     <div class="col-md-7 circleOptions">
                         <img src="{{ asset('imgs/circle-shape.png') }}" style="width: 100%"/>
                         <div class="circlesEachOption">
-                            <a id="ventas" class="ventas buble" href="#">                                
+                            <a id="ventas" class="ventas buble animated pulse" href="#">                                
                                 <audio id="my_ventas">
                                     <source src="{{ asset( 'audio/page_'.$page.'_1.ogg' ) }}" type="audio/ogg">
                                     <source src="{{ asset( 'audio/page_'.$page.'_1.mp3' ) }}" type="audio/mpeg">
@@ -28,7 +28,7 @@
                                 </audio>
                                 <img src="{{ asset('imgs/admin-products.svg') }}" alt="">
                             </a>
-                            <a id="apply" class="apply buble" href="#">                                
+                            <a id="apply" class="apply buble animated pulse" href="#">                                
                                 <audio id="my_apply">
                                     <source src="{{ asset( 'audio/page_'.$page.'_7.ogg' ) }}" type="audio/ogg">
                                     <source src="{{ asset( 'audio/page_'.$page.'_7.mp3' ) }}" type="audio/mpeg">
@@ -36,7 +36,7 @@
                                 </audio>
                                 <img src="{{ asset('imgs/distribucion-icon.svg') }}" alt="">
                             </a>
-                            <a id="resolucion" class="resolucion buble" href="#">                                
+                            <a id="resolucion" class="resolucion buble animated pulse" href="#">                                
                                 <audio id="my_resolucion">
                                     <source src="{{ asset( 'audio/page_'.$page.'_6.ogg' ) }}" type="audio/ogg">
                                     <source src="{{ asset( 'audio/page_'.$page.'_6.mp3' ) }}" type="audio/mpeg">
@@ -44,7 +44,7 @@
                                 </audio>
                                 <img src="{{ asset('imgs/almacenaje-icon.svg') }}" alt="">
                             </a>
-                            <a id="recaudo" class="recaudo buble" href="#">                                
+                            <a id="recaudo" class="recaudo buble animated pulse" href="#">                                
                                 <audio id="my_recaudo">
                                     <source src="{{ asset( 'audio/page_'.$page.'_5.ogg' ) }}" type="audio/ogg">
                                     <source src="{{ asset( 'audio/page_'.$page.'_5.mp3' ) }}" type="audio/mpeg">
@@ -52,7 +52,7 @@
                                 </audio>
                                 <img src="{{ asset('imgs/manufactura-icon.svg') }}" alt="">
                             </a>
-                            <a id="facturacion" class="facturacion buble" href="#">                                
+                            <a id="facturacion" class="facturacion buble animated pulse" href="#">                                
                                 <audio id="my_facturacion">
                                     <source src="{{ asset( 'audio/page_'.$page.'_4.ogg' ) }}" type="audio/ogg">
                                     <source src="{{ asset( 'audio/page_'.$page.'_4.mp3' ) }}" type="audio/mpeg">
@@ -60,7 +60,7 @@
                                 </audio>
                                 <img src="{{ asset('imgs/plan-icon.svg') }}" alt="">
                             </a>
-                            <a id="orden" class="orden buble" href="#">                                
+                            <a id="orden" class="orden buble animated pulse" href="#">                                
                                 <audio id="my_orden">
                                     <source src="{{ asset( 'audio/page_'.$page.'_3.ogg' ) }}" type="audio/ogg">
                                     <source src="{{ asset( 'audio/page_'.$page.'_3.mp3' ) }}" type="audio/mpeg">
@@ -68,7 +68,7 @@
                                 </audio>
                                 <img src="{{ asset('imgs/proceso-icon.svg') }}" alt="">
                             </a>
-                            <a id="anticipo" class="adminCredit buble" href="#">                                
+                            <a id="anticipo" class="adminCredit buble animated pulse" href="#">                                
                                 <audio id="my_anticipo">
                                     <source src="{{ asset( 'audio/page_'.$page.'_2.ogg' ) }}" type="audio/ogg">
                                     <source src="{{ asset( 'audio/page_'.$page.'_2.mp3' ) }}" type="audio/mpeg">
@@ -104,7 +104,8 @@
             <source src="{{ asset( 'audio/page_'.$page.'.mp3' ) }}" type="audio/mpeg">
             Your browser does not support the audio element.
           </audio>
-        <button id="btn_audio" class='btn_audio'> Play </button>
+        <button id="btn_audio" type="button" class="btn_audio btn btn-secondary btn-lg blueButton">Pausa / Play <i class="fas fa-play"></i></button>
+
     </div>
     
     <div class="pageBox">

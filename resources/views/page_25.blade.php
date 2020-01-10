@@ -18,7 +18,7 @@
                     <img class="iconLogo" src="{{ asset('imgs/icon-vehiculos.svg') }}" alt="">
                 </nav>
                 <div class="container-fluid">
-                   <div class="factoring animated bounceInUp">
+                   <div class="factoring animated fadeInDown">
                        <img src="{{ asset('imgs/main-26.svg') }}" alt="">
                    </div>
 
@@ -33,7 +33,8 @@
                 <source src="{{ asset( 'audio/page_'.$page.'.mp3' ) }}" type="audio/mpeg">
                 Your browser does not support the audio element.
               </audio>
-            <button id="btn_audio" class='btn_audio'> Play </button>
+            <button id="btn_audio" type="button" class="btn_audio btn btn-secondary btn-lg blueButton">Pausa / Play <i class="fas fa-play"></i></button>
+
         </div>
         
         <div class="pageBox">
