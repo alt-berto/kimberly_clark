@@ -18,7 +18,7 @@
             <div class="container-fluid">
                 <div class="row">
                    <div class="col-md-12 centerBoxImg">
-                       <img src="{{ asset('imgs/cash-conversion.jpg') }}" alt="">
+                       <img class="animated fadeInDown" src="{{ asset('imgs/cash-conversion.jpg') }}" alt="">
                    </div>
                     <div class="boxesBlue row">
                         <div class="col-md-3">

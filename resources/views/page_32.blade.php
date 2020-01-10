@@ -17,7 +17,7 @@
                 </nav>
                 <div class="container-fluid">
                     <div class="donts">
-                        <img src="{{ asset('imgs/donts-bg.jpg') }}" alt="">
+                        <img class="animated fadeInUp" src="{{ asset('imgs/donts-bg.jpg') }}" alt="">
                     </div>
 
 

@@ -358,6 +358,11 @@ html, body {
     position: relative;
 }
 
+
+.resultsFinal .boxMain {
+    padding: 3% 1%;
+}
+
 .circlesEachOption {
 
 }
