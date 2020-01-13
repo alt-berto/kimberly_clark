@@ -125,6 +125,7 @@ p {
     margin-top: 0;
     margin-bottom: 1rem;
     font-size: 0.8em;
+    margin-left: -5rem;
 }
 
 /*main styles app*/
@@ -1602,7 +1603,7 @@ pre code {
     }
 
     .circleOptions .mainInfo p {
-        font-size: 0.7em;
+        font-size: 0.7rem;
     }
 }
 
@@ -4508,7 +4509,7 @@ input[type="button"].btn-block {
 
 @media (min-width: 1500px) {
     .circleOptions .mainInfo p {
-        font-size: 1em;
+        font-size: 1.2rem;
     }
 }
 

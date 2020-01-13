@@ -1901,14 +1901,9 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "SideMenu",
-  props: ['pageNum'],
+  props: ['pageNum', 'ciclo', 'enfasis', 'componentes', 'iniciativas', 'vehiculos', 'constitucion', 'recomendaciones', 'quices', 'evaluaciones'],
   data: function data() {
     return {
       base_url: window.location.protocol + "//" + window.location.host + "/",
@@ -19564,60 +19559,169 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("ul", { staticClass: "sidebar navbar-nav" }, [
-    _c("li", { staticClass: "nav-item active" }, [
-      _c("a", { staticClass: "nav-link", attrs: { href: _vm.base_url } }, [
-        _vm._v("\n            El ciclo de caja y sus componentes\n        ")
-      ])
-    ]),
+    _c(
+      "li",
+      { staticClass: "nav-item", class: { active: _vm.ciclo == true } },
+      [
+        _c(
+          "a",
+          { staticClass: "nav-link", attrs: { href: _vm.base_url + "page/1" } },
+          [_vm._v("\n            El ciclo de caja y sus componentes\n        ")]
+        )
+      ]
+    ),
     _vm._v(" "),
-    _vm._m(0),
+    _c(
+      "li",
+      { staticClass: "nav-item", class: { active: _vm.enfasis == true } },
+      [
+        _c(
+          "a",
+          { staticClass: "nav-link", attrs: { href: _vm.base_url + "page/5" } },
+          [
+            _vm._v(
+              "\n            Énfasis en la rotación de cartera inventarios y cuentas por pagar\n        "
+            )
+          ]
+        )
+      ]
+    ),
     _vm._v(" "),
     _c("li", { staticClass: "optionsNav" }, [
       _c("ul", [
-        _c("li", { staticClass: "nav-item " }, [
-          _c("a", { staticClass: "nav-link", attrs: { href: "#" } }, [
-            _c("img", {
-              attrs: { src: _vm.base_url + "imgs/a-icon.svg", alt: "" }
-            }),
-            _vm._v(
-              "\n                    Componentes generales\n                "
+        _c(
+          "li",
+          {
+            staticClass: "nav-item",
+            class: { active: _vm.componentes == true }
+          },
+          [
+            _c(
+              "a",
+              {
+                staticClass: "nav-link",
+                attrs: { href: _vm.base_url + "page/6" }
+              },
+              [
+                _c("img", {
+                  attrs: { src: _vm.base_url + "imgs/a-icon.svg", alt: "" }
+                }),
+                _vm._v(
+                  "\n                    Componentes generales\n                "
+                )
+              ]
             )
-          ])
-        ]),
+          ]
+        ),
         _vm._v(" "),
-        _c("li", { staticClass: "nav-item " }, [
-          _c("a", { staticClass: "nav-link", attrs: { href: "#" } }, [
-            _c("img", {
-              attrs: { src: _vm.base_url + "imgs/b-icon.svg", alt: "" }
-            }),
-            _vm._v(
-              "\n                    Iniciativas más comunes\n                "
+        _c(
+          "li",
+          {
+            staticClass: "nav-item",
+            class: { active: _vm.iniciativas == true }
+          },
+          [
+            _c(
+              "a",
+              {
+                staticClass: "nav-link",
+                attrs: { href: _vm.base_url + "page/7" }
+              },
+              [
+                _c("img", {
+                  attrs: { src: _vm.base_url + "imgs/b-icon.svg", alt: "" }
+                }),
+                _vm._v(
+                  "\n                    Iniciativas más comunes\n                "
+                )
+              ]
             )
-          ])
-        ]),
+          ]
+        ),
         _vm._v(" "),
-        _c("li", { staticClass: "nav-item " }, [
-          _c("a", { staticClass: "nav-link", attrs: { href: "#" } }, [
-            _c("img", {
-              attrs: { src: _vm.base_url + "imgs/c-icon.svg", alt: "" }
-            }),
-            _vm._v(
-              "\n                    Vehículos financieros        \n                "
+        _c(
+          "li",
+          { staticClass: "nav-item", class: { active: _vm.vehiculos == true } },
+          [
+            _c(
+              "a",
+              {
+                staticClass: "nav-link",
+                attrs: { href: _vm.base_url + "page/8" }
+              },
+              [
+                _c("img", {
+                  attrs: { src: _vm.base_url + "imgs/c-icon.svg", alt: "" }
+                }),
+                _vm._v(
+                  "\n                    Vehículos financieros        \n                "
+                )
+              ]
             )
-          ])
-        ])
+          ]
+        )
       ])
     ]),
     _vm._v(" "),
-    _vm._m(1),
+    _c(
+      "li",
+      { staticClass: "nav-item", class: { active: _vm.constitucion == true } },
+      [
+        _c(
+          "a",
+          {
+            staticClass: "nav-link",
+            attrs: { href: _vm.base_url + "page/29" }
+          },
+          [_vm._v("\n            Constitución del playbook    \n        ")]
+        )
+      ]
+    ),
     _vm._v(" "),
-    _vm._m(2),
+    _c(
+      "li",
+      {
+        staticClass: "nav-item",
+        class: { active: _vm.recomendaciones == true }
+      },
+      [
+        _c(
+          "a",
+          {
+            staticClass: "nav-link",
+            attrs: { href: _vm.base_url + "page/32" }
+          },
+          [_vm._v("\n            Recomendaciones finales        \n        ")]
+        )
+      ]
+    ),
     _vm._v(" "),
-    _vm._m(3),
+    _c(
+      "li",
+      { staticClass: "nav-item", class: { active: _vm.quices == true } },
+      [
+        _c(
+          "a",
+          {
+            staticClass: "nav-link",
+            attrs: { href: _vm.base_url + "page/11" }
+          },
+          [_vm._v("\n            Quices        \n        ")]
+        )
+      ]
+    ),
     _vm._v(" "),
-    _vm._m(4),
-    _vm._v(" "),
-    _vm._m(5),
+    _c(
+      "li",
+      { staticClass: "nav-item", class: { active: _vm.evaluaciones == true } },
+      [
+        _c(
+          "a",
+          { staticClass: "nav-link", attrs: { href: _vm.base_url + "page/" } },
+          [_vm._v("\n            Evaluación final\n        ")]
+        )
+      ]
+    ),
     _vm._v(" "),
     _c("li", { staticClass: "nextBack" }, [
       _c("a", { staticClass: "back", attrs: { href: _vm.beforePage } }, [
@@ -19637,70 +19741,7 @@ var render = function() {
     ])
   ])
 }
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("li", { staticClass: "nav-item" }, [
-      _c("a", { staticClass: "nav-link", attrs: { href: "#" } }, [
-        _vm._v(
-          "\n            Énfasis en la rotación de cartera inventarios y cuentas por pagar\n        "
-        )
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("li", { staticClass: "nav-item" }, [
-      _c("a", { staticClass: "nav-link", attrs: { href: "#" } }, [
-        _vm._v("\n            Constitución del playbook    \n        ")
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("li", { staticClass: "nav-item" }, [
-      _c("a", { staticClass: "nav-link", attrs: { href: "#" } }, [
-        _vm._v("\n            Constitución del playbook    \n        ")
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("li", { staticClass: "nav-item" }, [
-      _c("a", { staticClass: "nav-link", attrs: { href: "#" } }, [
-        _vm._v("\n            Recomendaciones finales        \n        ")
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("li", { staticClass: "nav-item" }, [
-      _c("a", { staticClass: "nav-link", attrs: { href: "#" } }, [
-        _vm._v("\n            Quices        \n        ")
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("li", { staticClass: "nav-item" }, [
-      _c("a", { staticClass: "nav-link", attrs: { href: "#" } }, [
-        _vm._v("\n            Evaluación final\n        ")
-      ])
-    ])
-  }
-]
+var staticRenderFns = []
 render._withStripped = true
 
 

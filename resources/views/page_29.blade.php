@@ -8,7 +8,18 @@
     <section>
         <div id="wrapper">
             <!-- Sidebar -->
-            <side-menu-component page-num="{{ $page }}"></side-menu-component>
+            <side-menu-component 
+                ciclo="{{ false }}"
+                enfasis="{{ false }}"
+                componentes="{{ false }}"
+                iniciativas="{{ false }}"
+                vehiculos="{{ false }}"
+                constitucion="{{ true }}"
+                recomendaciones="{{ false }}"
+                quices="{{ false }}"
+                evaluaciones="{{ false }}"
+                page-num="{{ $page }}">
+            </side-menu-component>
             <!-- -->
             <div id="content-wrapper" class="purpleBoxMain">
                 <nav class="navbar static-top">

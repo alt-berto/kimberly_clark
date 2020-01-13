@@ -8,11 +8,22 @@
 <section>
     <div id="wrapper">
         <!-- Sidebar -->
-        <side-menu-component page-num="{{ $page }}"></side-menu-component>
+        <side-menu-component 
+            ciclo="{{ true }}"
+            enfasis="{{ false }}"
+            componentes="{{ false }}"
+            iniciativas="{{ false }}"
+            vehiculos="{{ false }}"
+            constitucion="{{ false }}"
+            recomendaciones="{{ false }}"
+            quices="{{ false }}"
+            evaluaciones="{{ false }}"
+            page-num="{{ $page }}">
+        </side-menu-component>
         <!-- -->
         <div id="content-wrapper">
             <nav class="navbar static-top">    
-                <h1 class="mainTitle">¿Lideres KC sobre CCC</h1>    
+                <h1 class="mainTitle">¿Líderes KC sobre CCC</h1>    
                 <img class="iconLogo" src="{{ asset('imgs/icon-logo.svg') }}" alt="">
             </nav>
             <div class="container-fluid contentBox">

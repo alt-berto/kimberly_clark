@@ -8,12 +8,23 @@
 <section>
     <div id="wrapper">
         <!-- Sidebar -->
-        <side-menu-component page-num="{{ $page }}"></side-menu-component>
+        <side-menu-component 
+            ciclo="{{ true }}"
+            enfasis="{{ false }}"
+            componentes="{{ false }}"
+            iniciativas="{{ false }}"
+            vehiculos="{{ false }}"
+            constitucion="{{ false }}"
+            recomendaciones="{{ false }}"
+            quices="{{ false }}"
+            evaluaciones="{{ false }}"
+            page-num="{{ $page }}">
+        </side-menu-component>
         <!-- -->
         <div id="content-wrapper">
             <nav class="navbar static-top">    
                 <h1 class="mainTitle">El Ciclo de Caja y sus componentes</h1>
-                <h5>Metodologia de cálculo mensual</h5>    
+                <h5>Metodología de cálculo mensual</h5>    
                 <img class="iconLogo" src="{{ asset('imgs/icon-logo.svg') }}" alt="">
             </nav>
             <div class="container-fluid contentBox page5">
