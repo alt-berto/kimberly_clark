@@ -124,9 +124,10 @@ h1, h2, h3, h4, h5, h6 {
 p {
     margin-top: 0;
     margin-bottom: 1rem;
-    font-size: 0.8em;
-    margin-left: -5rem;
+    font-size: 0.8em;    
 }
+
+.mainInfo p { margin-left: -5rem; }
 
 /*main styles app*/
 html, body {
@@ -545,7 +546,7 @@ html, body {
 .circleOptions .mainCuentas {
     color: #fff;
     position: absolute;
-    top: 27%;
+    top: 35%;
     max-width: 300px;
     width: 100%;
     left: 28%;
@@ -1041,7 +1042,7 @@ resultsFinal p {
     .circleOptions .mainCuentas {
         max-width: 390px;
         left: 26%;
-        top: 23%;
+        /*top: 23%;*/
     }
 
     .circlesEachOption .ventas, .circlesEachOption .circleBlue1 {
