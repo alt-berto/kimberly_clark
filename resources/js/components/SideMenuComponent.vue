@@ -83,7 +83,7 @@
             let next = parseInt( this.pageNum ) + 1;
             //
             this.beforePage = this.base_url + 'page/' + before;
-            if ( this.pageNum == 40 ) {
+            if ( this.pageNum == 39 ) {
                 this.nexPage = this.base_url;
             } else {
                 this.nexPage = this.base_url + 'page/' + next;
