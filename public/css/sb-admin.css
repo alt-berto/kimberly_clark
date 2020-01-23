@@ -4518,6 +4518,42 @@ input[type="button"].btn-block {
     .circlesEachOption img {
         width: 160px;
     }
+
+    .boxes .col-md-6 img {
+        margin: 60px auto -1px!important;
+    }
+    .blueCuentas .circlesEachOption img {
+        width: 192px!important;
+    }
+    .blueCuentas .circlesEachOption .resolucion {
+        left: -37px;
+    }
+    .boxBlue .circlesEachOption .resolucion img {
+        width: 234px!important;
+    }
+    .circlesEachOption img {
+        width: 158px!important;
+    }
+    .circleOptions .mainInfo {
+        max-width: 250px!important;
+        left: 35% !important;
+
+    }
+    .boxBlue .circlesEachOption .resolucion img {
+        width: 270px!important;
+    }
+    .circleOptions .mainCuentas {
+        top: 34%!important;
+        max-width: 208px!important;
+        left: 32%!important;
+        right: 28%!important;
+    }
+    .mainInfo p {
+        font-size: 1rem!important;
+    }
+    .circlesEachOption .orden {
+        right: -26px!important;
+    }
 }
 
 @media (max-width: 1499px) {
