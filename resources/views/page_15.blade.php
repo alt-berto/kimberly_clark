@@ -19,7 +19,7 @@
             quices="{{ false }}"
             evaluaciones="{{ false }}"
             page-num="{{ $page }}">
-        </side-menu-component><side-menu-component page-num="{{ $page }}"></side-menu-component>
+        </side-menu-component>
         <!-- -->
         <div id="content-wrapper">
             <nav class="navbar static-top">    
