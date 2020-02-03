@@ -30,26 +30,10 @@
                 <div class="content3">
                     <div class="topLineColor"></div>
                     <div class="quizInfo">
-                        <div class="animated fadeInUp">
-                            <div class="form-group">
-                              <label for="email">Email</label>
-                              <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Escriba su Email">                              
-                            </div>
-                            <div class="form-group">
-                              <label for="name">Nombre</label>
-                              <input type="text" class="form-control" id="name" placeholder="Escriba su Nombre Completo">
-                            </div>                                                       
-                        </div>
-                        <br><br>
-                        <div class="boxWhite">
-                        <!-- Button trigger modal -->
-                        <button id="desplegar" type="button" class="btn btn-primary">
-                            Realizar la Evaluacion Final
-                        </button>
-                        
- 
-
-                        </div>
+                        <p class="animated fadeInUp">
+                            <h4 id="message">  </h4>                                                
+                        </p>
+                        <br><br>                      
                     </div>
                 </div><!-- /.container-fluid -->
             </div><!-- /.container-fluid -->        

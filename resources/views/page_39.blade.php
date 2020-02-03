@@ -30,41 +30,17 @@
                 <div class="content3">
                     <div class="topLineColor"></div>
                     <div class="quizInfo">
-                        <p class="animated fadeInDown">5. De la siguiente lista elige las iniciativas que mejoran el CCC:
+                        <p class="animated fadeInDown">4. ¿El CCC es una de las prioridades financieras de K-C?
                         </p>                        
                             <ul class="animated fadeInUp">
                                 <li>
                                     <input type="checkbox" class="selected" name="verdadero" value="verdadero" id="id_true">
-                                    <label for="id_true">Extender el plazo de pago a nuestros clientes.</label>
+                                    <label for="id_true">Verdadero</label>
                                 </li>
                                 <li>
                                     <input type="checkbox" class="selected" name="verdadero" value="verdadero" id="id_true2">
-                                    <label for="id_true2">Reducir el plazo de pago a proveedores.</label>
-                                </li>
-                                <li>
-                                    <input type="checkbox" class="selected" name="verdadero" value="verdadero" id="id_true3">
-                                    <label for="id_true3">Incrementar los niveles de inventario en K-C.</label>
-                                </li>
-                                <li>
-                                    <input type="checkbox" class="selected" name="verdadero" value="verdadero" id="id_true4">
-                                    <label for="id_true4">Tener 0 inventarios de materia prima.</label>
-                                </li>
-                                <li>
-                                    <input type="checkbox" class="selected" name="verdadero" value="verdadero" id="id_true5">
-                                    <label for="id_true5">Racionalizar la cantidad de referencias que distribuimos.</label>
-                                </li>
-                                <li>
-                                    <input type="checkbox" class="selected" name="verdadero" value="verdadero" id="id_true6">
-                                    <label for="id_true6">Pagar con tarjeta de crédito a nuestros proveedores.</label>
-                                </li>
-                                <li>
-                                    <input type="checkbox" class="selected" name="verdadero" value="verdadero" id="id_true7">
-                                    <label for="id_true7">Recaudar anticipadamente cuantas por cobrar.</label>
-                                </li>
-                                <li>
-                                    <input type="checkbox" class="selected" name="verdadero" value="verdadero" id="id_true8">
-                                    <label for="id_true8">Alinear el mejor método de transporte de nuestros inventarios.</label>
-                                </li>
+                                    <label for="id_true2">Falso</label>
+                                </li>                                
                             </ul>
                             <div class="boxWhite">
                             <!-- Button trigger modal -->
@@ -82,8 +58,7 @@
                                         </button>
                             
                                         <div class="modal-body">
-                                            ¡Correcto! Las iniciativas que mejoran el CCC son:<br>
-                                            Racionalizar la cantidad de referencias que distribuimos, pagar con tarjeta de crédito a nuestros proveedores, recaudar anticipadamente las cuentas por cobrar, alinear el mejor método de transporte de nuestros inventarios.
+                                            Verdadero, el CCC si es una de las prioridades financieras de K-C.
                                         </div>
                                     </div>
                                 </div>

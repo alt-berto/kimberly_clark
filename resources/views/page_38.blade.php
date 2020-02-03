@@ -30,17 +30,22 @@
                 <div class="content3">
                     <div class="topLineColor"></div>
                     <div class="quizInfo">
-                        <p class="animated fadeInDown">4. ¿El CCC es una de las prioridades financieras de K-C?
+                        <p class="animated fadeInDown">3. ¿El coste de ventas se usa para calcular cuáles de los componentes del CCC?
                         </p>                        
                             <ul class="animated fadeInUp">
                                 <li>
                                     <input type="checkbox" class="selected" name="verdadero" value="verdadero" id="id_true">
-                                    <label for="id_true">Verdadero</label>
+                                    <label for="id_true">DSO</label>
                                 </li>
                                 <li>
                                     <input type="checkbox" class="selected" name="verdadero" value="verdadero" id="id_true2">
-                                    <label for="id_true2">Falso</label>
-                                </li>                                
+                                    <label for="id_true2">DIO</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" class="selected" name="verdadero" value="verdadero" id="id_true3">
+                                    <label for="id_true3">DPO</label>
+                                </li>
+                                
                             </ul>
                             <div class="boxWhite">
                             <!-- Button trigger modal -->
@@ -58,7 +63,7 @@
                                         </button>
                             
                                         <div class="modal-body">
-                                            Verdadero, el CCC si es una de las prioridades financieras de K-C.
+                                            ¡Así es! DIO y DPO, el coste de las ventas se usa para calcular el DIO y DPO.
                                         </div>
                                     </div>
                                 </div>

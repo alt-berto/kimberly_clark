@@ -30,36 +30,40 @@
                 <div class="content3">
                     <div class="topLineColor"></div>
                     <div class="quizInfo">
-                        <p class="animated fadeInDown">1. ¿Cuáles son los componentes del primary working capital o CCC?
+                        <p class="animated fadeInDown">5. De la siguiente lista elige las iniciativas que mejoran el CCC:
                         </p>                        
                             <ul class="animated fadeInUp">
                                 <li>
                                     <input type="checkbox" class="selected" name="verdadero" value="verdadero" id="id_true">
-                                    <label for="id_true">Net sales</label>
+                                    <label for="id_true">Extender el plazo de pago a nuestros clientes.</label>
                                 </li>
                                 <li>
                                     <input type="checkbox" class="selected" name="verdadero" value="verdadero" id="id_true2">
-                                    <label for="id_true2">DSO</label>
+                                    <label for="id_true2">Reducir el plazo de pago a proveedores.</label>
                                 </li>
                                 <li>
                                     <input type="checkbox" class="selected" name="verdadero" value="verdadero" id="id_true3">
-                                    <label for="id_true3">Cost of goods sold</label>
+                                    <label for="id_true3">Incrementar los niveles de inventario en K-C.</label>
                                 </li>
                                 <li>
                                     <input type="checkbox" class="selected" name="verdadero" value="verdadero" id="id_true4">
-                                    <label for="id_true4">DPO</label>
+                                    <label for="id_true4">Tener 0 inventarios de materia prima.</label>
                                 </li>
                                 <li>
                                     <input type="checkbox" class="selected" name="verdadero" value="verdadero" id="id_true5">
-                                    <label for="id_true5">DIO</label>
+                                    <label for="id_true5">Racionalizar la cantidad de referencias que distribuimos.</label>
                                 </li>
                                 <li>
                                     <input type="checkbox" class="selected" name="verdadero" value="verdadero" id="id_true6">
-                                    <label for="id_true6">Cashflow</label>
+                                    <label for="id_true6">Pagar con tarjeta de crédito a nuestros proveedores.</label>
                                 </li>
                                 <li>
                                     <input type="checkbox" class="selected" name="verdadero" value="verdadero" id="id_true7">
-                                    <label for="id_true7">Operational profit</label>
+                                    <label for="id_true7">Recaudar anticipadamente cuantas por cobrar.</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" class="selected" name="verdadero" value="verdadero" id="id_true8">
+                                    <label for="id_true8">Alinear el mejor método de transporte de nuestros inventarios.</label>
                                 </li>
                             </ul>
                             <div class="boxWhite">
@@ -78,7 +82,8 @@
                                         </button>
                             
                                         <div class="modal-body">
-                                            ¡Muy bien! DSO, DPO y DIO
+                                            ¡Correcto! Las iniciativas que mejoran el CCC son:<br>
+                                            Racionalizar la cantidad de referencias que distribuimos, pagar con tarjeta de crédito a nuestros proveedores, recaudar anticipadamente las cuentas por cobrar, alinear el mejor método de transporte de nuestros inventarios.
                                         </div>
                                     </div>
                                 </div>

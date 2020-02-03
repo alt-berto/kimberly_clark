@@ -54,8 +54,8 @@
             </a>    
         </li>    
         <li class="nextBack">
-            <a :href="beforePage" class="back"><img :src="base_url + 'imgs/arrow-back.svg'" :alt="beforePage"></a>
-            <a :href="nexPage" class="next"><img :src="base_url + 'imgs/arrow-next.svg'" :alt="nexPage"></a>
+            <a :href="beforePage" id="prevPage" class="back"><img :src="base_url + 'imgs/arrow-back.svg'" :alt="beforePage"></a>
+            <a :href="nexPage" id="nextPage" class="next"><img :src="base_url + 'imgs/arrow-next.svg'" :alt="nexPage"></a>
         </li>
 
     </ul>
@@ -83,7 +83,7 @@
             let next = parseInt( this.pageNum ) + 1;
             //
             this.beforePage = this.base_url + 'page/' + before;
-            if ( this.pageNum == 39 ) {
+            if ( this.pageNum == 41 ) {
                 this.nexPage = this.base_url;
             } else {
                 this.nexPage = this.base_url + 'page/' + next;

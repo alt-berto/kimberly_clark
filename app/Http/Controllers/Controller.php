@@ -9,6 +9,7 @@ use Illuminate\Routing\Controller as BaseController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Input;
 use Illuminate\Support\Facades\Mail;
+use App\Mail\SendMailable;
 
 class Controller extends BaseController
 {
@@ -106,7 +107,7 @@ class Controller extends BaseController
     }
 
      // Load Home Index View
-     public function page( $page ) {
+    public function page( $page ) {
         // Title
         $this->data['title'] = 'CCC TRAINING - Page '.$page;
         // Load Metas
@@ -152,6 +153,20 @@ class Controller extends BaseController
 
         // Load View
         return view( 'page_'.$page )->with( $this->data );
+    }
+
+    public function mail ( Request $request ) {
+        $data = [
+            'name' => $request->name,
+            'mail' => $request->mail,
+            'note' => $request->note
+        ];
+       
+        Mail::to( 'ing.molinanestor@gmail.com' )
+            ->cc( [ 'cbtcccsend@gmail.com', 'cbtcccreceive@gmail.com' ] )
+            ->send( new SendMailable( $data ) );
+
+        //dd("Email is Sent.");
     }
 
 

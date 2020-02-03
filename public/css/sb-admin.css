@@ -12826,3 +12826,10 @@ body.sidebar-toggled footer.sticky-footer {
         width: calc(100% - 90px);
     }
 }
+
+a.disabled {
+    opacity: 0.5;
+    pointer-events: none;
+    cursor: default;
+  }
+  

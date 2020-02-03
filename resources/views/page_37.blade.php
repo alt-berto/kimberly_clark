@@ -30,22 +30,17 @@
                 <div class="content3">
                     <div class="topLineColor"></div>
                     <div class="quizInfo">
-                        <p class="animated fadeInDown">3. ¿El coste de ventas se usa para calcular cuáles de los componentes del CCC?
+                        <p class="animated fadeInDown">2. ¿El playbook de iniciativas consiste en desarrollar todas la iniciativas en todos los paises?
                         </p>                        
                             <ul class="animated fadeInUp">
                                 <li>
                                     <input type="checkbox" class="selected" name="verdadero" value="verdadero" id="id_true">
-                                    <label for="id_true">DSO</label>
+                                    <label for="id_true">Verdadero</label>
                                 </li>
                                 <li>
                                     <input type="checkbox" class="selected" name="verdadero" value="verdadero" id="id_true2">
-                                    <label for="id_true2">DIO</label>
-                                </li>
-                                <li>
-                                    <input type="checkbox" class="selected" name="verdadero" value="verdadero" id="id_true3">
-                                    <label for="id_true3">DPO</label>
-                                </li>
-                                
+                                    <label for="id_true2">Falso</label>
+                                </li>                                
                             </ul>
                             <div class="boxWhite">
                             <!-- Button trigger modal -->
@@ -63,7 +58,7 @@
                                         </button>
                             
                                         <div class="modal-body">
-                                            ¡Así es! DIO y DPO, el coste de las ventas se usa para calcular el DIO y DPO.
+                                            Falso, el playbook de iniciativas consiste en ver qué aplica para que países.
                                         </div>
                                     </div>
                                 </div>

@@ -1925,7 +1925,7 @@ __webpack_require__.r(__webpack_exports__);
 
       this.beforePage = this.base_url + 'page/' + before;
 
-      if (this.pageNum == 39) {
+      if (this.pageNum == 41) {
         this.nexPage = this.base_url;
       } else {
         this.nexPage = this.base_url + 'page/' + _next;
@@ -19724,20 +19724,34 @@ var render = function() {
     ),
     _vm._v(" "),
     _c("li", { staticClass: "nextBack" }, [
-      _c("a", { staticClass: "back", attrs: { href: _vm.beforePage } }, [
-        _c("img", {
-          attrs: {
-            src: _vm.base_url + "imgs/arrow-back.svg",
-            alt: _vm.beforePage
-          }
-        })
-      ]),
+      _c(
+        "a",
+        {
+          staticClass: "back",
+          attrs: { href: _vm.beforePage, id: "prevPage" }
+        },
+        [
+          _c("img", {
+            attrs: {
+              src: _vm.base_url + "imgs/arrow-back.svg",
+              alt: _vm.beforePage
+            }
+          })
+        ]
+      ),
       _vm._v(" "),
-      _c("a", { staticClass: "next", attrs: { href: _vm.nexPage } }, [
-        _c("img", {
-          attrs: { src: _vm.base_url + "imgs/arrow-next.svg", alt: _vm.nexPage }
-        })
-      ])
+      _c(
+        "a",
+        { staticClass: "next", attrs: { href: _vm.nexPage, id: "nextPage" } },
+        [
+          _c("img", {
+            attrs: {
+              src: _vm.base_url + "imgs/arrow-next.svg",
+              alt: _vm.nexPage
+            }
+          })
+        ]
+      )
     ])
   ])
 }
