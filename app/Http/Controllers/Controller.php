@@ -100,6 +100,7 @@ class Controller extends BaseController
         $this->data['js']['internals'][] = 'demo/datatables-demo.js';
         $this->data['js']['internals'][] = 'demo/chart-area-demo.js';
         $this->data['js']['internals'][] = 'app.js';
+        $this->data['js']['internals'][] = 'page/page.js';
         $this->data['js']['internals'][] = 'main.js';
         //
         // Load View

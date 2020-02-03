@@ -56,7 +56,7 @@ $( document ).ready( function(  ) {
     }
 
     function send_mail(  ) {  
-        if ( localStorage.getItem( 'email' ) != null ) {     
+        if ( localStorage.getItem( 'mail_status' ) != 'true' ) {     
             $.ajax( {
                 url: base_url + "send/email",
                 type: "get",
@@ -66,13 +66,12 @@ $( document ).ready( function(  ) {
                     note: localStorage.getItem( 'result' )
                 },
                 success: function ( response)  {
-                    //localStorage.setItem( 'mail_status', true );
-                    localStorage.clear(  );
+                    localStorage.setItem( 'mail_status', true );                    
                     console.log( 'email sent!.' );
                 // You will get response from your PHP page (what you echo or print)
                 },
                 error: function( jqXHR, textStatus, errorThrown ) {
-                console.log( textStatus, errorThrown );
+                    console.log( textStatus, errorThrown );
                 }
             } );
         }
