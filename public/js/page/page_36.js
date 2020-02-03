@@ -56,8 +56,7 @@ $( document ).ready( function(  ) {
      //
      $( '#nextPage' ).addClass( 'disabled' );
      //
-     $( "#desplegar" ).click( function(  ) {
-         alert($( "#desplegar" ).attr( "data-target" ));
+     $( "#desplegar" ).click( function(  ) {        
         if ( $( "#desplegar" ).attr( "data-target" ) == '#falseModal' ) {
             localStorage.setItem( 'page_36', false );
         } else {
