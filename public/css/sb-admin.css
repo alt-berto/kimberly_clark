@@ -4540,8 +4540,13 @@ input[type="button"].btn-block {
 
     }
     .boxBlue .circlesEachOption .resolucion img {
-        width: 270px!important;
+        width: 225px!important;
     }
+
+    #recaudo img{
+        width: 150px!important;
+    }
+
     .circleOptions .mainCuentas {
         top: 34%!important;
         max-width: 208px!important;
@@ -4549,7 +4554,8 @@ input[type="button"].btn-block {
         right: 28%!important;
     }
     .mainInfo p {
-        font-size: 1rem!important;
+        font-size: 0.8rem!important;
+        margin-top: 10px;
     }
     .circlesEachOption .orden {
         right: -26px!important;
