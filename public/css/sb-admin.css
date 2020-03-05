@@ -4518,7 +4518,51 @@ input[type="button"].btn-block {
     .circlesEachOption img {
         width: 160px;
     }
+    .content3 .mainImg {
+        position: relative;
+        top: 0;
+        z-index: 400;
+    }
+    .anticipo {
+        position: absolute;
+        right: 9%;
+        top: 16%;
+    }
+    .contentPagoAntes {
+        background: url(../imgs/pronto-pago-Guy.png) no-repeat scroll right 0;
+        background-size: 54%;
+        height: 100vh;
+    }
+    .content3 img {
+        width: 83%;
+        margin: 0!important;
+    }
 
+    .content3 img {
+        width: 83%;
+        margin-top: -111px;
+        margin-left: -107px;
+    }
+    .row .circlesEachOption .orden {
+        right: 31px!important;
+    }.boxes img {
+         max-width: 42%;
+         width: 100%;
+         margin: 41px auto 40px;
+         display: block;
+     }
+
+    .mainBG{
+        bottom: -55px;
+    }
+    .circleOptions {
+        position: relative !important;
+        top: 48px;
+    }
+    .redBox .circleBox .col-md-5 img {
+        right: -98px;
+        bottom: -59px;
+    }
     .boxes .col-md-6 img {
         margin: 60px auto -1px!important;
     }
